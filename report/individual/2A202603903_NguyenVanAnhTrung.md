@@ -38,8 +38,8 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | 2 | Liên tục tra các công cụ khi quên, đôi khi không tìm được công cụ chính xác |Deadline chính xác của bài lab, trang web chính xác liên quan đến các công cụ được dùng trong bài lab |
-| 2 | 1 | Không biết các nội dung của daily standup | Dàn ý cụ thể của daily standup |
+| 1 | 1 | Liên tục tra các công cụ khi quên, đôi khi không tìm được công cụ chính xác |Deadline chính xác của bài lab, trang web chính xác liên quan đến các công cụ được dùng trong bài lab |
+| 2 | 2 | Không biết các nội dung của daily standup | Dàn ý cụ thể của daily standup |
 | 3 | 6 | Lặp lại liên tục và quá trình đọc bị nhầm |Nguồn gốc của hóa đơn có ở trên mạng không, có thể có trang tra mã hóa đơn ở trên mạng không... |
 
 ### Problem Card #1
@@ -89,7 +89,7 @@ Quy trình nháp hiện tại:
 | Trường | Nội dung |
 |---|---|
 | Job Story | Khi hoàn thành file tổng hợp hóa đơn vào đầu tháng, tôi muốn tổng hợp dữ liệu để gửi cho trưởng nhóm vào đầu tuần đầu của tháng đó |
-| Actor |Trưởng nhóm |
+| Actor |Trưởng nhóm, kế toán trưởng |
 | Thời điểm / bối cảnh |Vào đầu tháng, hóa đơn từ tháng trước chưa được tổng hợp |
 | Quy trình hiện tại (3–7 bước) |1. Nhìn dữ liệu trong hóa đơn, 2. Ghi nhớ dữ liệu, 3. Gõ phím nhập dữ liệu, 4. So sánh kết quả trên hệ thống và trên giấy |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Mất 1 phút để thực hiện bước 2|
@@ -118,7 +118,7 @@ Quy trình nháp hiện tại:
 
 - Card số: 3
 - Vì sao: Ở card này workflow rõ ràng nhất so với hai cái còn lại
-- Câu hỏi muốn nhóm phản biện: 
+- Câu hỏi muốn nhóm phản biện: Có thể dùng OCR trong trường hợp này không?
 
 ### AI đã phản biện card thế nào
 

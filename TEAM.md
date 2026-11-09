@@ -12,10 +12,10 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | Nguyễn Phi Hoàng|2A202603952 |Trưởng nhóm |phihoang1709 |
+| 2 | Nguyễn Minh Phúc | 2A202603894 | Thành viên | NgMinPhuc |
+| 3 | Nguyễn Văn Anh Trung|2A202603903 | Thành viên |FPT_Trungocsdiogee |
+| 4 | Phạm Quang Dũng| 2A202603896 | Thành viên | quanggpham |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -41,7 +41,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
--
+- 
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
