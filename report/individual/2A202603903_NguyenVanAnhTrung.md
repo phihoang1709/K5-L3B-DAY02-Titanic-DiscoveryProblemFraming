@@ -8,8 +8,8 @@
 - Họ tên: Nguyễn Văn Anh Trung
 - MSSV: 2A202603903
 - Email trường (không bắt buộc, repo có thể để public): 26ai.trungnva@vinuni.edu.vn
-- Tên nhóm:
-- Link repository:
+- Tên nhóm: Titanic
+- Link repository:[K5-L3B-DAY02-Titanic-DiscoveryProblemFraming](https://github.com/phihoang1709/K5-L3B-DAY02-Titanic-DiscoveryProblemFraming)
 
 ---
 
@@ -47,12 +47,12 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Trường | Nội dung |
 |---|---|
 | Job Story | Khi trước mỗi buổi học lí thuyết, tôi muốn một notes ghi những gì đã làm, những gì chưa làm và những vướng mắc trong quá trình học, để nộp daily standup trước deadline|
-| Actor |Mentor |
+| Actor |Mentor, học viên(chính tôi) |
 | Thời điểm / bối cảnh | Trước 10h sáng|
 | Quy trình hiện tại (3–7 bước) |1. Tổng hợp thông tin , 2. Gõ ra các gạch đầu dòng ra một file sticky notes, 3. Copy các notes đó vào hệ thống, 4. Bấm nộp|
 | Bottleneck (bước nào, mất bao nhiêu phút) |Bước 1, mất 1-2 tiếng|
 | Impact (nếu không giải thì sao) | Mất quyền lợi, ảnh hưởng đến mentor |
-| Success metric (baseline → target) | Chưa tìm ra cách|
+| Success metric (baseline → target) | |
 | Phương án không dùng AI |Đọc qua tất cả các trang|
 | Giả thuyết về AI (nếu có) | |
 | Cảm nhận nhanh | Chưa biết |
@@ -88,9 +88,9 @@ Quy trình nháp hiện tại:
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi hoàn thành file tổng hợp hóa đơn vào đầu tháng, tôi muốn tổng hợp dữ liệu để gửi cho trưởng nhóm vào đầu tuần đầu của tháng đó |
+| Job Story | Khi hoàn thành file tổng hợp hóa đơn vào đầu tháng, tôi muốn tổng hợp dữ liệu để gửi cho trưởng nhóm vào ngày 7 của tháng đó |
 | Actor |Trưởng nhóm, kế toán trưởng |
-| Thời điểm / bối cảnh |Vào đầu tháng, hóa đơn từ tháng trước chưa được tổng hợp |
+| Thời điểm / bối cảnh |Vào thứ 2 tuần đầu tiên tháng, hóa đơn từ tháng trước chưa được tổng hợp |
 | Quy trình hiện tại (3–7 bước) |1. Nhìn dữ liệu trong hóa đơn, 2. Ghi nhớ dữ liệu, 3. Gõ phím nhập dữ liệu, 4. So sánh kết quả trên hệ thống và trên giấy |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Mất 1 phút để thực hiện bước 2|
 | Impact (nếu không giải thì sao) | Không có kịp kết quả để trưởng nhóm báo cáo lên ban lãnh đạo|
@@ -124,7 +124,10 @@ Quy trình nháp hiện tại:
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| Thời gian chưa cụ thể ở card 3 | Đồng ý |  |
+| Thời gian chưa cụ thể ở card 3 | Đồng ý | đầu tháng -> thứ 2 đầu tiên của tháng |
+|Deadline chưa rõ ràng(card 3)|Đồng ý| Bổ sung deadline nộp cho trưởng nhóm
+|Sai actor ở card 2|Đồng ý| Bổ sung học viên làm actor
+
 
 ---
 
@@ -149,8 +152,8 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Gợi ý bổ sung job story|Bổ sung các job story trong giới hạn 2 ngày học|Các vấn đề sẽ xuất hiện ở ngày sau| Loại bỏ các job story không phù hợp bối cảnh hai ngày học|
-| CP2 Problem Card |Phản biện card số 3|Chỉ ra một số thông tin cần làm rõ| | |
+| CP1 Scan | Gợi ý bổ sung job story|Bổ sung các job story trong giới hạn 2 ngày học|Các vấn đề sẽ xuất hiện ở các ngày sau| Loại bỏ các job story không phù hợp bối cảnh đã trải qua hai ngày học|
+| CP2 Problem Card |Phản biện problem card|Chỉ ra một số thông tin cần làm rõ| | |
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
