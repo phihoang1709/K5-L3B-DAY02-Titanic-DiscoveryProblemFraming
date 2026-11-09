@@ -5,7 +5,7 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: Titanic
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu):
 - Quyết định cuối: Go / Not Yet / No-Go
@@ -18,9 +18,9 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+| 1 | Nguyễn Phi Hoàng | Khi mới vào công ty, tôi muốn tìm đúng tài liệu và người hỗ trợ để bắt đầu nhiệm vụ đầu tiên. | Nhân viên mới | Tìm tài liệu đúng vai trò và phiên bản (ước tính 60 phút). | Có cần dùng agent thay vì chỉ cần dùng workflow ? (Nguyễn Minh Phúc)|
+| 2 | Nguyễn Phi Hoàng | Khi nhận dự án mới, tôi muốn thiết lập đúng môi trường để chạy được ứng dụng hoặc bộ test. | Dev/tester mới vào dự án | Dò lỗi do phiên bản công cụ hoặc thư viện không khớp (ước tính 40 phút). | |
+| 3 | Nguyễn Phi Hoàng | Khi đọc tin công nghệ buổi sáng, tôi muốn chọn tin sát việc đang làm để biết bài nào cần đọc sâu. | Người học và làm công nghệ (bản thân) | Đọc nhiều bài mới xác định được mức liên quan (ước tính 40 phút). | |
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
@@ -35,7 +35,7 @@
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
+| A — Onboarding nhân viên mới | #1 — Onboarding (Nguyễn Phi Hoàng) | Người mới mất thời gian tìm đúng tài liệu và người phụ trách trước khi bắt đầu nhiệm vụ đầu tiên. |
 | B | | |
 | C | | |
 
