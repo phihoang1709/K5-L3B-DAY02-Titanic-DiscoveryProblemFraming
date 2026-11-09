@@ -11,7 +11,7 @@
 ### Repo đề bài
 
 ```text
-https://github.com/VinUni-AI20k/K5-L3-Day02-DiscoveryProblemFraming.git
+https://github.com/phihoang1709/K5-L3B-DAY02-Titanic-DiscoveryProblemFraming.git
 ```
 
 ### Repo bài nộp
@@ -19,7 +19,7 @@ https://github.com/VinUni-AI20k/K5-L3-Day02-DiscoveryProblemFraming.git
 Mỗi nhóm làm chung **một** repo. Nhóm trưởng fork repo đề bài và đặt tên theo cú pháp sau. `TenNhom` là tên nhóm, viết không dấu, không khoảng trắng. Không dùng họ tên hay MSSV của nhóm trưởng hay của từng thành viên.
 
 ```text
-K5-<L3A hoặc L3B>-DAY02-TenNhom-DiscoveryProblemFraming
+K5-L3B-DAY02-Titanic-DiscoveryProblemFraming
 ```
 
 Ví dụ lớp L3A: `K5-L3A-DAY02-NhomABC-DiscoveryProblemFraming`. Lớp L3B: `K5-L3B-DAY02-NhomABC-DiscoveryProblemFraming`.
