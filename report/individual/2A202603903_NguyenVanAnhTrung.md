@@ -38,9 +38,9 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | 2 | Liên tục tra các công cụ khi quên |Deadline chính xác của bài lab, trang web chính xác liên quan đến các công cụ được dùng trong bài lab |
-| 2 | 1 | Học xong một cú pháp mới lại quên ngay, phải tìm lại nó ở trên mạng | Cách đánh giá kiến thức sau khi học |
-| 3 | 6 | Lặp lại liên tục và quá trình đọc bị nhầm | |
+| 1 | 2 | Liên tục tra các công cụ khi quên, đôi khi không tìm được công cụ chính xác |Deadline chính xác của bài lab, trang web chính xác liên quan đến các công cụ được dùng trong bài lab |
+| 2 | 1 | Không biết các nội dung của daily standup | Dàn ý cụ thể của daily standup |
+| 3 | 6 | Lặp lại liên tục và quá trình đọc bị nhầm |Nguồn gốc của hóa đơn có ở trên mạng không, có thể có trang tra mã hóa đơn ở trên mạng không... |
 
 ### Problem Card #1
 
@@ -51,8 +51,8 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Thời điểm / bối cảnh | Trước 10h sáng|
 | Quy trình hiện tại (3–7 bước) |1. Tổng hợp thông tin , 2. Gõ ra các gạch đầu dòng ra một file sticky notes, 3. Copy các notes đó vào hệ thống, 4. Bấm nộp|
 | Bottleneck (bước nào, mất bao nhiêu phút) |Bước 1, mất 1-2 tiếng|
-| Impact (nếu không giải thì sao) | Mất quyền lợi |
-| Success metric (baseline → target) | |
+| Impact (nếu không giải thì sao) | Mất quyền lợi, ảnh hưởng đến mentor |
+| Success metric (baseline → target) | Chưa tìm ra cách|
 | Phương án không dùng AI |Đọc qua tất cả các trang|
 | Giả thuyết về AI (nếu có) | |
 | Cảm nhận nhanh | Chưa biết |
@@ -67,16 +67,16 @@ Quy trình nháp hiện tại:
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | |
-| Actor ||
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
+| Job Story |Khi thứ 7 cần nộp báo cáo lab, tôi muốn có tài liệu, gợi ý công cụ để hoàn thành và công cụ tổng hợp logs, để nộp repo lên hệ thống trước 12h đêm|
+| Actor |Lab coach, bản thân|
+| Thời điểm / bối cảnh |Thứ 6-7 tuần trước, khi hoàn thành bài lab trước|
+| Quy trình hiện tại (3–7 bước) |Vấn đề khó: 1, Gõ từ khóa liên quan lên Google, 2. Kiểm tra trang nào chứa tài liệu mình cần, 3. Đọc tài liệu |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Mất 30 phút - 1 tiếng ở bước 2. |
+| Impact (nếu không giải thì sao) |  |
+| Success metric (baseline → target) | Test code để kiểm tra, kiểm chứng thông tin|
+| Phương án không dùng AI | Đọc lướt qua từng trang trên google |
 | Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Cảm nhận nhanh | Chưa biết |
 
 Quy trình nháp hiện tại:
 
@@ -124,7 +124,7 @@ Quy trình nháp hiện tại:
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| Thời gian chưa cụ thể ở card 3 | Đồng ý |  |
 
 ---
 
