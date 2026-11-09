@@ -27,9 +27,9 @@
 | 7 |Nguyễn Văn Anh Trung |  Khi trước mỗi buổi học lí thuyết, tôi muốn một notes ghi những gì đã làm, những gì chưa làm và những vướng mắc trong quá trình học, để nộp daily standup trước deadline| Mentor|Mất 1-2 tiếng trong việc tổng hợp thông tin | |
 | 8 | Nguyễn Văn Anh Trung | Khi thứ 7 cần nộp báo cáo lab, tôi muốn có tài liệu, gợi ý công cụ để hoàn thành và công cụ tổng hợp logs, để nộp repo lên hệ thống trước 12h đêm|Lab coach, bản thân |Mất 30 phút - 1 tiếng khi tìm tài liệu | |
 | 9 |Nguyễn Văn Anh Trung  | Khi hoàn thành file tổng hợp hóa đơn vào đầu tháng, tôi muốn tổng hợp dữ liệu để gửi cho trưởng nhóm vào đầu tuần đầu của tháng đó |Trưởng nhóm, kế toán trưởng  |Mất 1-2 phút để thực hiện bước 2, vì hay quên | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 10 | Phạm Quang Dũng | Khi bắt đầu buổi dạy thêm với một em, tôi muốn biết buổi trước dừng ở đâu và em còn vướng gì, để không mất những phút đầu dò lại. | Giáo viên dạy thêm Toán cấp 1 (3 học sinh, 5 buổi/tuần) | Lật vở tìm chỗ dừng (5 phút) và cho em làm thử để dò chỗ vướng (10 phút); khoảng 20 phút/buổi, 100 phút/tuần. | |
+| 11 | Phạm Quang Dũng | Khi chuẩn bị buổi dạy hôm sau, tôi muốn có phiếu bài tập đúng dạng em đang yếu, để em luyện đúng chỗ hổng. | Giáo viên dạy thêm Toán cấp 1 | Tìm bài cùng dạng trong sách/mạng (5 phút/phiếu); 10 phút/phiếu × 12 phiếu = 120 phút/tuần. | |
+| 12 | Phạm Quang Dũng | Khi viết chương tổng quan tài liệu cho khóa luận, tôi muốn biết nhanh bài báo nào thật sự liên quan, để không mất nhiều buổi đọc bài không dùng được. | Sinh viên năm cuối CNTT viết khóa luận | Tải và đọc toàn bài rồi mới biết không dùng (180 phút/tuần); 12/20 bài đọc xong bị bỏ. | |
 
 ### 2.2. Cluster
 
