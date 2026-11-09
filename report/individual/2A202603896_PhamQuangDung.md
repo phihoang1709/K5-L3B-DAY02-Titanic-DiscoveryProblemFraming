@@ -139,6 +139,16 @@ TỔNG QUAN TÀI LIỆU: ~5 giờ/tuần, 20 bài đọc → 8 bài dùng đư�
 → [5 Viết đoạn tổng quan: 120']
 ```
 
+### Card muốn pitch nhất
+
+- Card số: **#3, lọc bài báo cho chương tổng quan khóa luận**.
+- Vì sao:
+  - Tốn nhiều thời gian nhất trong 3 card. Bước 3 (tải và đọc toàn bài) là bước lâu nhất, 180 phút, mà 12/20 bài đọc xong mới bỏ.
+  - Bottleneck là một bước cụ thể, đo được bằng con số rõ: tỉ lệ bài đọc toàn bài được dùng, 8/20 (40%).
+  - Không chỉ mình tôi gặp: các bạn năm cuối khác đều phải viết tổng quan tài liệu, nên ở CP4 dễ tìm người thật để phỏng vấn.
+  - So sánh được đủ 4 mức No AI / Rule / Workflow / Agent: đã có phương án không dùng AI (bảng tiêu chí chọn/loại, đọc abstract và kết luận trước).
+- Câu hỏi muốn nhóm phản biện: *"Nếu tôi viết sẵn bảng tiêu chí chọn/loại và chỉ đọc toàn bài khi abstract và kết luận qua tiêu chí, thì tỉ lệ 8/20 có tự tăng lên không, hay cái khó thật là tôi chưa rõ đề tài cần loại bài nào?"*
+
 ### AI đã phản biện card thế nào
 
 Đưa card #1 cho AI đóng vai PM hoài nghi (prompt phản biện trong worksheet).
