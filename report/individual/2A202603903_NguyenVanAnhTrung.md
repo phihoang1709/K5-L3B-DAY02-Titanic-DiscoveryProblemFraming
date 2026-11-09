@@ -49,7 +49,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Job Story | Khi trước mỗi buổi học lí thuyết, tôi muốn một notes ghi những gì đã làm, những gì chưa làm và những vướng mắc trong quá trình học, để nộp daily standup trước deadline|
 | Actor |Mentor, học viên(chính tôi) |
 | Thời điểm / bối cảnh | Trước 10h sáng|
-| Quy trình hiện tại (3–7 bước) |1. Tổng hợp thông tin , 2. Gõ ra các gạch đầu dòng ra một file sticky notes, 3. Copy các notes đó vào hệ thống, 4. Bấm nộp|
+| Quy trình hiện tại (3–7 bước) |1. Tổng hợp thông tin , 2. Gõ ra các gạch đầu dòng ra một file sticky notes, 3. Copy các notes đó vào hệ thống, 4. Nộp|
 | Bottleneck (bước nào, mất bao nhiêu phút) |Bước 1, mất 1-2 tiếng|
 | Impact (nếu không giải thì sao) | Mất quyền lợi, ảnh hưởng đến mentor |
 | Success metric (baseline → target) | |
@@ -60,6 +60,17 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 Quy trình nháp hiện tại:
 
 ```text
+1. Tổng hợp thông tin 
+        |
+        v
+2. Gõ ra các gạch đầu dòng ra một file sticky notes
+        |
+        v
+3. Copy các notes đó vào hệ thống
+        |
+        v
+        4. Nộp
+
 
 ```
 
@@ -72,7 +83,7 @@ Quy trình nháp hiện tại:
 | Thời điểm / bối cảnh |Thứ 6-7 tuần trước, khi hoàn thành bài lab trước|
 | Quy trình hiện tại (3–7 bước) |Vấn đề khó: 1, Gõ từ khóa liên quan lên Google, 2. Kiểm tra trang nào chứa tài liệu mình cần, 3. Đọc tài liệu |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Mất 30 phút - 1 tiếng ở bước 2. |
-| Impact (nếu không giải thì sao) |  |
+| Impact (nếu không giải thì sao) | Nộp sát giờ bài chưa hoàn thành -> mất điểm lab|
 | Success metric (baseline → target) | Test code để kiểm tra, kiểm chứng thông tin|
 | Phương án không dùng AI | Đọc lướt qua từng trang trên google |
 | Giả thuyết về AI (nếu có) | |
@@ -81,6 +92,16 @@ Quy trình nháp hiện tại:
 Quy trình nháp hiện tại:
 
 ```text
+Gặp vấn đề khó
+        |
+        v
+1. 1, Gõ từ khóa liên quan lên Google
+        |
+        v
+2. Kiểm tra trang nào chứa tài liệu mình cần <- Bottleneck
+        |
+        v
+3. Đọc tài liệu
 
 ```
 
@@ -127,6 +148,7 @@ Quy trình nháp hiện tại:
 | Thời gian chưa cụ thể ở card 3 | Đồng ý | đầu tháng -> thứ 2 đầu tiên của tháng |
 |Deadline chưa rõ ràng(card 3)|Đồng ý| Bổ sung deadline nộp cho trưởng nhóm
 |Sai actor ở card 2|Đồng ý| Bổ sung học viên làm actor
+|Gợi ý impact và giả thuyết AI ở card 2 |Đồng ý| Bổ sung impact ở card 2
 
 
 ---
