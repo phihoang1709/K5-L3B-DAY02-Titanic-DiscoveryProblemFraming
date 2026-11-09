@@ -21,9 +21,9 @@
 | 1 | Nguyễn Phi Hoàng | Khi mới vào công ty, tôi muốn tìm đúng tài liệu và người hỗ trợ để bắt đầu nhiệm vụ đầu tiên. | Nhân viên mới | Tìm tài liệu đúng vai trò và phiên bản (ước tính 60 phút). | Có cần dùng agent thay vì chỉ cần dùng workflow ? (Nguyễn Minh Phúc)|
 | 2 | Nguyễn Phi Hoàng | Khi nhận dự án mới, tôi muốn thiết lập đúng môi trường để chạy được ứng dụng hoặc bộ test. | Dev/tester mới vào dự án | Dò lỗi do phiên bản công cụ hoặc thư viện không khớp (ước tính 40 phút). | |
 | 3 | Nguyễn Phi Hoàng | Khi đọc tin công nghệ buổi sáng, tôi muốn chọn tin sát việc đang làm để biết bài nào cần đọc sâu. | Người học và làm công nghệ (bản thân) | Đọc nhiều bài mới xác định được mức liên quan (ước tính 40 phút). | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 4 | Nguyễn Minh Phúc | Khi gia sư chấm ảnh bài tập về nhà qua Zalo, tôi muốn chấm nhanh và thấy em sai lặp lại dạng nào qua các buổi, để buổi sau dạy lại đúng chỗ hổng. | Gia sư Hoá lớp 8–9 (5 học sinh, 4 nhà) | Lật vở tìm lỗi cũ (5–7 phút/lần, hay bị bỏ qua); lỗi lặp lại 3–4 buổi mới bị phát hiện. Tổng ~20 phút/lần, ~10 lần/tuần (ước tính). | |
+| 5 | Nguyễn Minh Phúc | Khi chuẩn bị buổi dạy, tôi muốn biết em vừa học tới bài nào trên lớp và có sẵn bài luyện đúng dạng, đúng mức khó, để buổi học bám sát tiến độ ở trường. | Gia sư Hoá lớp 8–9 (4 trường, 3 bộ sách) | Tìm bài tập đúng dạng và mức khó từ nhiều nguồn (~15 phút/buổi trong tổng ~40 phút, ~8 buổi/tuần; ước tính). | |
+| 6 | Nguyễn Minh Phúc | Khi phụ huynh hỏi "con học thế nào, có tiến bộ không", tôi muốn có minh chứng tiến bộ cụ thể của con (quá trình học, thi cử, độ hiểu bài), để phụ huynh yên tâm tiếp tục cho con học. | Gia sư (chịu pain); phụ huynh (ra quyết định) | Gom bằng chứng tiến bộ vì không ghi số liệu sau mỗi buổi (~10 phút/lần trả lời, 2–3 tin/tuần/phụ huynh; ước tính). Năm ngoái mất 1 học sinh. | |
 | 7 | | | | | |
 | 8 | | | | | |
 | 9 | | | | | |
