@@ -37,20 +37,8 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### HoVaTen-MSSV
+### Nguyễn Phi Hoàng -2A202603952
 
-**Phần việc phụ trách:**
-
--
-
-**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
-
--
-
-**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
-
--
-
-**Điều mình học được từ phần nhóm:**
-
--
+- **Phần việc:** Trưởng nhóm, phụ trách đề tài onboarding nhân viên mới.
+- **Đóng góp:** Chuẩn bị 3 Problem Card, ghi 3 candidate vào bảng pitch và đưa onboarding vào Cluster A. Phản biện lại các đề tài của thành viên khác
+- **Bằng chứng:** [Báo cáo cá nhân, mục 3](report/individual/202603952_NguyenPhiHoang.md) và [báo cáo nhóm, mục 2.1–2.2](report/team/group_report.md).
