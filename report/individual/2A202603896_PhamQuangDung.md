@@ -6,11 +6,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Họ tên: Phạm Quang Dũng
+- MSSV: 2A202603896
+- Email trường (không bắt buộc, repo có thể để public): 26ai.dungpq3@vinuni.edu.vn
+- Tên nhóm: Tinanic
+- Link repo nhóm: https://github.com/phihoang1709/K5-L3B-DAY02-Titanic-DiscoveryProblemFraming
 
 ---
 
@@ -56,7 +56,7 @@ Cột dấu hiệu thật là số tôi tự đo hoặc tự đếm trong 1–2 
 | 2 | Soạn phiếu bài tập đúng dạng em đang yếu (CP1 #1) | Việc tốn thời gian nhất: 10 phút/phiếu × 12 phiếu/tuần = **120 phút/tuần**, làm ngoài giờ dạy, không được trả | "Phiếu đúng dạng em yếu" khó đo; chưa rõ 12 phiếu/tuần gồm phiếu làm trên lớp và bài về nhà chia thế nào cho 3 em |
 | 3 | Lọc bài báo cho chương tổng quan khóa luận (CP1 #5) | Tốn nhiều giờ nhất: **5 giờ/tuần**; chỉ **8/20** bài đọc được dùng (40%) | Actor chỉ có tôi; số bài đọc mỗi tuần không đều; giảng viên hướng dẫn có thể đã có danh sách bài gợi ý |
 
-Ba card cùng dùng số tự đo ở CP1. Số phút cho từng bước trong quy trình nháp (ô `__'`) tôi sẽ bấm giờ ở các buổi tới; tổng thời gian và bước nghẽn lấy từ CP1.
+Ba card cùng dùng số tự đo ở CP1.
 
 ### Problem Card #1 — Dò lại đầu buổi học
 
@@ -139,19 +139,13 @@ TỔNG QUAN TÀI LIỆU: ~5 giờ/tuần, 20 bài đọc → 8 bài dùng đư�
 → [5 Viết đoạn tổng quan: 120']
 ```
 
-### Card muốn pitch nhất
-
-- Card số: **#1, dò lại đầu buổi học**.
-- Vì sao: số đo gắn trực tiếp với giờ dạy (100 phút/tuần, khoảng 17%), bottleneck là một bước cụ thể trong buổi học, và cùng pattern với CP1 #2 và #3: thông tin sau mỗi buổi học không được lưu lại ở dạng dùng lại được, nên tôi phải dò lại, còn phụ huynh phải nhắn hỏi lại.
-- Câu hỏi muốn nhóm phản biện: *"Nếu chỉ cần đọc lại tin nhắn đã gửi phụ huynh để biết buổi trước dừng ở đâu, thì vấn đề này còn đáng đào sâu, hay chỉ là thói quen ghi chép chưa tốt?"*
-
 ### AI đã phản biện card thế nào
 
 Đưa card #1 cho AI đóng vai PM hoài nghi (prompt phản biện trong worksheet).
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| 20 phút/buổi là ước lượng theo trí nhớ, chưa bấm giờ, chưa tách từng bước | Đồng ý | Ghi vào "Điều còn chưa chắc"; đánh dấu bottleneck là *giả định*; bấm giờ 5 buổi tới cho từng bước |
+| 20 phút/buổi là ước lượng theo trí nhớ, chưa bấm giờ, chưa tách từng bước | Đồng ý | Ghi vào "Điều còn chưa chắc"; đánh dấu bottleneck là *giả định*|
 | Một phần thời gian đầu buổi là ôn bài cũ có chủ đích, có ích cho em, không phải lãng phí | Đồng ý một phần | Success metric chỉ đo phần **tìm lại chỗ dừng**, không tính phần ôn tập |
 | Tôi đã viết tin nhắn cho phụ huynh 10 phút/buổi, đọc lại tin đó có thể đã đủ, có thể không cần AI | Đồng ý | Thêm vào "Phương án không dùng AI"; cảm nhận nhanh chuyển sang **No AI / Rule** |
 | Chỉ có 3 học sinh, impact nhỏ, khó thuyết phục nhóm | Đồng ý một phần | Ghi impact theo % giờ dạy (~17%); ở CP4 cần hỏi thêm giáo viên dạy thêm khác xem có gặp không |
