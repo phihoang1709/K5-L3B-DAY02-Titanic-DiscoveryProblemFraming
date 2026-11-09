@@ -4,9 +4,10 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: Titanic
+- Candidate problem nhóm chọn (1 câu): Nhân viên mới dev/tester/ITBA khó tìm đúng tài liệu theo vai trò, phiên bản và đầu mối hỗ trợ trong toàn trình HR–IT–mentor để bắt đầu nhiệm vụ đầu tiên.
+- Mức can thiệp: **Agent hỗ trợ onboarding**, tự chọn công cụ/bước tiếp theo trong giới hạn cho phép.
+- Quyết định triển khai: **Not Yet** — chưa đủ kiểm chứng người dùng, dữ liệu/quyền và hiệu quả thực tế.
 
 ## Thành viên
 
@@ -37,8 +38,11 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
-### Nguyễn Phi Hoàng -2A202603952
+### Nguyễn Phi Hoàng — 2A202603952
 
-- **Phần việc:** Trưởng nhóm, phụ trách đề tài onboarding nhân viên mới.
-- **Đóng góp:** Chuẩn bị 3 Problem Card, ghi 3 candidate vào bảng pitch và đưa onboarding vào Cluster A. Phản biện lại các đề tài của thành viên khác
-- **Bằng chứng:** [Báo cáo cá nhân, mục 3](report/individual/202603952_NguyenPhiHoang.md) và [báo cáo nhóm, mục 2.1–2.2](report/team/group_report.md).
+- **Vai trò:** Trưởng nhóm, phụ trách onboarding.
+- **Đóng góp:** Ba Problem Card và candidate pitch; tổng hợp Cluster #1/#4/#12, OST, research, quy trình, v0/v1 và eval có AI hỗ trợ. TEAM ghi có phản biện nhưng chưa lưu câu hỏi cụ thể tại lớp.
+- **Kết luận:** Agent hỗ trợ chọn công cụ/bước tiếp theo; Not Yet cho triển khai.
+- **Trạng thái:** Chưa phỏng vấn, chạy pilot/eval; snapshot là case mô phỏng, reflection là bản nháp cần Hoàng rà lại.
+- **Tiếp theo:** Phỏng vấn hai người mới và một mentor ngoài nhóm; đo baseline, so Agent với Workflow.
+- **Bằng chứng:** [Báo cáo cá nhân](report/individual/2A202603952_NguyenPhiHoang.md), [báo cáo nhóm](report/team/group_report.md).

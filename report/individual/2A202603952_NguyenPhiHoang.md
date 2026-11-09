@@ -1,14 +1,12 @@
-# Báo cáo cá nhân — MSSV_HoTen
+# Báo cáo cá nhân — 2A202603952_NguyenPhiHoang
 
-> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
-> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
-> Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
+> Báo cáo của Nguyễn Phi Hoàng, nhóm Titanic. Hướng dẫn: [worksheet](../../docs/01-worksheet.md). Các phần biên soạn bổ sung và bản nháp reflection có hỗ trợ AI được ghi ở mục 4–6.
 
 ## 1. Thông tin học viên
 
 - Họ tên: Nguyễn Phi Hoàng
 - MSSV: 2A202603952
-- Email trường (không bắt buộc, repo có thể để public):
+- Email trường: không công khai trong repo.
 - Tên nhóm: Titanic
 - Link repo nhóm: https://github.com/phihoang1709/K5-L3B-DAY02-Titanic-DiscoveryProblemFraming
 
@@ -60,7 +58,7 @@ Không chọn #3 ôn thi và #4 tập trung buổi tối vào top 3 vì bối c�
 | Success metric | Mục tiêu hoàn tất phạm vi onboarding trong tối đa 4 ngày làm việc, so với mức hiện tại khoảng 1 tuần ghi ở CP1. Theo dõi 3 nhân viên mới tiếp theo: ghi ngày nhận hướng dẫn, thời điểm có đủ tài nguyên và thời điểm mentor xác nhận bắt đầu nhiệm vụ đầu tiên; thống nhất đơn vị ngày làm việc khi đối chiếu baseline. Ghi thêm phút tìm tài liệu, thời gian chờ cấp quyền và số lượt chuyển đầu mối. Chỉ tính đạt khi hoàn tất thủ tục bắt buộc và bắt đầu đúng nhiệm vụ, không cắt giảm phần hướng dẫn cần thiết để đạt thời gian. |
 | Phương án không dùng AI | Checklist onboarding theo vai trò; một trang tập trung tài liệu và danh bạ hỗ trợ; mỗi tài liệu có người phụ trách và ngày cập nhật. Yêu cầu cấp tài nguyên dùng biểu mẫu có trạng thái, người xử lý và hạn hoàn thành. Rule tạo đầu việc, nhắc hạn và chuyển yêu cầu theo vai trò; người có thẩm quyền phê duyệt quyền truy cập. |
 | Hướng ứng dụng AI | Agent dựa vào vai trò của nhân viên và tiến độ onboarding để chọn việc cần làm tiếp theo. Nếu nhân viên báo chưa mở được tài liệu dự án, Agent kiểm tra trạng thái yêu cầu cấp quyền. Nếu yêu cầu đang chờ, Agent báo đầu mối xử lý và hướng dẫn một việc khác có thể làm ngay. Nếu chưa có yêu cầu, Agent soạn phiếu để admin duyệt trước khi cấp quyền. Khi quyền đã sẵn sàng, Agent tra tài liệu được phép đọc, dẫn nguồn đúng phiên bản và hướng dẫn nhân viên tiếp tục. |
-| Cảm nhận nhanh | **Agent.** Cùng một vướng mắc có thể cần tra tài liệu, kiểm tra phiếu hoặc hỏi mentor. Agent tự chọn công cụ và điều chỉnh bước tiếp theo theo kết quả vừa nhận. Khi các nguồn mâu thuẫn, Agent chuyển câu hỏi cho người phụ trách. Mentor xác nhận nhân viên đã bắt đầu nhiệm vụ đầu tiên. |
+| Cảm nhận nhanh | **Agent — nhận định ban đầu ở CP2.** Cùng một vướng mắc có thể cần tra tài liệu, kiểm tra phiếu hoặc hỏi mentor. Agent tự chọn công cụ và điều chỉnh bước tiếp theo theo kết quả vừa nhận. Khi các nguồn mâu thuẫn, Agent chuyển câu hỏi cho người phụ trách. Mentor xác nhận nhân viên đã bắt đầu nhiệm vụ đầu tiên. |
 
 Quy trình hiện tại — thời gian ước lượng cá nhân:
 
@@ -163,54 +161,72 @@ Nghiên cứu sâu sau buổi cập nhật được ghi thời gian riêng.
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
-|---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+Phần bổ sung có AI hỗ trợ; snapshot thuộc case mô phỏng, không phải cuộc phỏng vấn tôi đã làm.
 
----
+| Hoạt động | Đóng góp / kết quả |
+|---|---|
+| Pitch | Chuẩn bị ba card; onboarding được nhóm chọn. |
+| Phản biện bạn khác | TEAM có ghi đóng góp nhưng chưa lưu câu hỏi tại lớp. Câu hỏi bổ sung cho #4: “Ghi lỗi sau mỗi buổi đã đủ chưa?” |
+| Nhận phản biện | Phúc hỏi Agent hay Workflow; làm rõ Agent phải tự chọn công cụ và điều chỉnh bước theo kết quả. |
+| Cluster / OST | Tổng hợp #1/#4/#12; OST tập trung tài liệu, đầu mối và tiến độ onboarding. |
+| Chọn candidate | Bổ sung điểm và lý do chọn onboarding; không nhận là biên bản bỏ phiếu. |
+| Kiểm chứng / research | Đối chiếu ba nguồn sản phẩm; chưa phỏng vấn thật. |
+| Quy trình | Giữ bảy bước; tách 210 phút chủ động, chờ quyền và học nghiệp vụ. |
+| Problem Statement | Bổ sung metric đúng nguồn/bước tiếp theo và boundary; không suy giảm ngày từ giảm phút. |
+| Mức AI | Chọn Agent hỗ trợ onboarding; checklist/Rule là nền, Workflow là đối chứng. |
+| Quyết định | Not Yet vì chưa kiểm chứng nhu cầu, dữ liệu/quyền và hiệu quả Agent. |
+
+**So với CP2:** Giữ hướng Agent nhưng giới hạn quyền và số lượt gọi công cụ. Mục tiêu ≤4 ngày ban đầu chưa đủ cơ sở; nhóm đo tra cứu ≤20 phút và theo dõi toàn trình riêng.
 
 ## 5. Dùng AI
 
-| Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
-|---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | Hỗ trợ phát triển 3 card từ CP1 và phản biện onboarding | Tách phạm vi, metric và giả thuyết nghẽn | Phân bổ thời gian từng bước chưa có dữ liệu thật | Chờ tôi đối chiếu quy trình, sửa số và tự đánh giá phản biện |
-| CP4 Research | Tìm tài liệu chính thức và chuẩn bị kế hoạch kiểm chứng onboarding | So sánh checklist, wiki và quản trị tri thức | Tài liệu sản phẩm không chứng minh pain tại công ty | Chờ tôi kiểm link, phỏng vấn người thật và cập nhật kết luận |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP | Dùng AI / hữu ích | Điểm yếu | Cách xử lý |
+|---|---|---|---|
+| CP1 | Gợi thêm bài setup. | Quá hẹp vào Python. | Giữ bài setup cho dev/tester. |
+| CP2 | Phát triển card, phản biện. | Phân bổ phút chưa đo. | Ghi ước lượng, tách tra cứu/chờ/học. |
+| CP3 | Biên soạn Cluster, OST, shortlist. | Ban đầu gom cả 12. | Chỉ #1/#4/#12, giữ nguyên pitch; không nhận AI là hoạt động phản biện tại lớp. |
+| CP4 | Research và snapshot. | Nguồn sản phẩm/case không chứng minh pain thật. | Kiểm link, ghi số mẫu thật bằng 0. |
+| CP5 | Sơ đồ, before/after. | Giảm phút không chứng minh giảm ngày. | Giữ 60 →20 và 210 →170, đo phần chờ riêng. |
+| CP5–6 | Biên soạn v0/v1 và eval. | Dễ chỉ đo tốc độ. | Thêm đúng nguồn, quyền, bước tiếp theo và fallback. |
+| CP6 | So sánh mức can thiệp. | Bản trước thu hẹp thành Workflow tra cứu. | Giữ mục tiêu hỗ trợ tiến độ: Agent tự chọn công cụ; cần so với Workflow. |
+| CP7 | Soạn nháp reflection. | AI không biết trải nghiệm riêng. | Ghi rõ hỗ trợ AI; tôi cần rà và tự viết lại trải nghiệm. |
 
----
+AI hỗ trợ cả biên soạn, rộng hơn giới hạn “chỉ phản biện” của lab; không coi bản nháp là phần tự làm đã được xác nhận.
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
+> Bản nháp có AI hỗ trợ để Hoàng rà lại; chưa phải reflection tự viết đáp ứng quy định CP7.
 
-**6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+**6.1. Tôi học được gì từ các problem của nhóm?**
 
-**6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Đọc card của nhóm, tôi thấy vấn đề có thời gian, tần suất và đầu ra rõ dễ phân tích hơn. Onboarding cần chỉ ra bước nghẽn, thay vì chỉ nói người mới mất một tuần.
 
-**6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+**6.2. Tôi có bị solution-first không?**
 
-**6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Ban đầu tôi nghiêng về Agent vì có nhiều bên tham gia. Điều đó chưa đủ: phải tách việc hành chính cố định khỏi vướng mắc cần tìm hiểu và chọn bước tiếp theo theo kết quả.
 
-**6.5. Điều khó nhất khi viết Problem Statement là gì?**
+**6.3. Tôi thay đổi gì sau phản biện?**
 
-**6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Câu hỏi của Phúc khiến tôi làm rõ lý do chọn Agent. Tôi giữ hướng này cho việc tự chọn công cụ, hỏi thêm và điều chỉnh hỗ trợ; giới hạn quyền, giữ người duyệt và xem Workflow là phương án đối chứng.
 
-**6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+**6.4. Research giúp tôi thấy gì?**
 
----
+Các công cụ có sẵn giải được phần tài liệu và yêu cầu. Phần cần đánh giá là phối hợp chúng theo tình huống. Tôi chưa phỏng vấn thật nên không coi snapshot là bằng chứng nhu cầu.
+
+**6.5. Khó nhất khi viết Problem Statement?**
+
+Khó nhất là metric: 60 phút tra cứu nằm trong 210 phút chủ động; chờ quyền và học dự án khác bản chất. Giảm xuống 20 phút chưa chứng minh giảm ngày onboarding, cũng chưa bảo đảm hướng dẫn đúng.
+
+**6.6. Nếu làm lại, tôi sẽ đổi gì?**
+
+Tôi sẽ đo baseline và hỏi người mới trước. Tôi muốn so Agent với Workflow trên cùng tình huống, kiểm cả thời gian lẫn lỗi, thay vì chỉ bảo vệ giải pháp mình thích. Not Yet nhắc tôi hoàn thành việc này.
+
+**6.7. Chuỗi problem → quy trình → metric → boundary → mức AI → quyết định**
+
+Người mới khó tìm đúng nguồn và biết bước tiếp theo khi onboarding gặp trở ngại. Quy trình gồm bảy bước từ hướng dẫn HR đến nhiệm vụ đầu tiên. Metric chính là giảm thời gian onborading xuống từ 30-50%, kèm đúng tài liệu và bước đề xuất. Chờ quyền và học nghiệp vụ được đo riêng. Agent tự chọn công cụ theo kết quả nhưng không tự gửi yêu cầu, cấp quyền hoặc xác nhận hoàn tất. HR/IT giữ phê duyệt, mentor kiểm tra nhiệm vụ, mỗi lượt hỗ trợ giới hạn năm lần gọi công cụ. Nhóm chọn thiết kế Agent nhưng quyết định Not Yet vì chưa đủ kiểm chứng thực tế.
 
 ## 7. Tài liệu tham khảo
 
--
+- [Báo cáo nhóm](../team/group_report.md): research, quy trình, Agent và quyết định.
+- [Worksheet](../../docs/01-worksheet.md), [bài mẫu](../../docs/02-deliverable-example.md), [framework](../../docs/03-international-frameworks.md).
+- Ba nguồn sản phẩm chính thức tại mục 3.3 của báo cáo nhóm, kiểm tra 09/11/2026.
