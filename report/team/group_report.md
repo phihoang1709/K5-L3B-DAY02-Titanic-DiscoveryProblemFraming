@@ -27,9 +27,9 @@
 | 7 | | | | | |
 | 8 | | | | | |
 | 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 10 | Phạm Quang Dũng | Khi bắt đầu buổi dạy thêm với một em, tôi muốn biết buổi trước dừng ở đâu và em còn vướng gì, để không mất những phút đầu dò lại. | Giáo viên dạy thêm Toán cấp 1 (3 học sinh, 5 buổi/tuần) | Lật vở tìm chỗ dừng (5 phút) và cho em làm thử để dò chỗ vướng (10 phút); khoảng 20 phút/buổi, 100 phút/tuần. | |
+| 11 | Phạm Quang Dũng | Khi chuẩn bị buổi dạy hôm sau, tôi muốn có phiếu bài tập đúng dạng em đang yếu, để em luyện đúng chỗ hổng. | Giáo viên dạy thêm Toán cấp 1 | Tìm bài cùng dạng trong sách/mạng (5 phút/phiếu); 10 phút/phiếu × 12 phiếu = 120 phút/tuần. | |
+| 12 | Phạm Quang Dũng | Khi viết chương tổng quan tài liệu cho khóa luận, tôi muốn biết nhanh bài báo nào thật sự liên quan, để không mất nhiều buổi đọc bài không dùng được. | Sinh viên năm cuối CNTT viết khóa luận | Tải và đọc toàn bài rồi mới biết không dùng (180 phút/tuần); 12/20 bài đọc xong bị bỏ. | |
 
 ### 2.2. Cluster
 
