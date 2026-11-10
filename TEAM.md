@@ -48,11 +48,59 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - **Tiếp theo:** Phỏng vấn hai người mới và một mentor ngoài nhóm; đo baseline, so Agent với Workflow.
 - **Bằng chứng:** [Báo cáo cá nhân](report/individual/2A202603952_NguyenPhiHoang.md), [báo cáo nhóm](report/team/group_report.md).
 
-### Nguyễn Minh Phúc — 2A202603894
+### NguyenMinhPhuc-2A202603894
 
-- **Vai trò:** Thành viên; phụ trách Problem Statement v0 và so sánh mức can thiệp AI.
-- **Đóng góp:** Viết Problem Statement v0 từ quy trình và bước nghẽn tìm tài liệu; so sánh No AI, Rule, Workflow và Agent, lập AI Canvas và lý do chọn Agent hỗ trợ onboarding. Hỗ trợ kiểm tra nguồn ở bảng research, và đối chiếu v1 với v0 cùng tiêu chí đạt của từng ca eval.
-- **Kết luận:** Agent hỗ trợ onboarding phù hợp nhất vì cần tự chọn công cụ/bước tiếp theo theo vai trò, phiên bản và đầu mối; HR, IT và mentor vẫn duyệt các bước nhạy cảm. Not Yet cho triển khai.
-- **Trạng thái:** Chưa phỏng vấn người dùng thật, chưa chạy pilot/eval; baseline trong v0 là ước tính, chưa đo thực tế.
-- **Tiếp theo:** Cùng nhóm phỏng vấn người mới và mentor để kiểm chứng baseline; so Agent với Workflow trên bộ ca eval mẫu.
-- **Bằng chứng:** [Báo cáo cá nhân](report/individual/2A202603894_NguyenMinhPhuc.md), [báo cáo nhóm](report/team/group_report.md).
+**Phần việc phụ trách:**
+
+- CP5 — Problem Statement v0 (người chính); CP6 — Mức can thiệp AI (người chính).
+- CP4 — Research: hỗ trợ kiểm tra nguồn; CP6 — Problem Statement v1 và eval: hỗ trợ đối chiếu v1 với v0.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch 3 candidate (#4, #5, #6 ở mục 2.1) lấy từ 3 Problem Card CP2; #4 (chấm bài, lỗi lặp lại) đại diện Cluster B và vào shortlist với 27/35 điểm, không được chọn vì cần chuyên môn Hoá và dữ liệu lỗi xuyên nhiều buổi.
+- Đặt câu hỏi phản biện cho card #1 (Hoàng), #7 (Trung), #11 (Dũng) và trả lời phản biện cho 3 card của mình (cột phản biện mục 2.1).
+- Câu hỏi "Agent hay Workflow?" cho card #1 trở thành phép so sánh Agent với Workflow ở mục 6.2, mục 8.2 và điều kiện pilot của nhóm.
+- Phản biện card #3 của mình bằng AI (vai "PM hoài nghi"): đồng ý 5/6 điểm, sửa Actor, Impact, Bottleneck; bỏ điểm "nhảy sang AI quá sớm" vì card đã để No AI / Rule làm hướng đầu tiên.
+
+**Trạng thái:** Chưa phỏng vấn người dùng thật, chưa chạy pilot/eval; baseline 60/210 phút là ước tính, chưa đo thực tế.
+
+**Bằng chứng:**
+
+- `group_report.md` mục 2.1 (dòng #4–#6), mục 2.4, mục 5, mục 6.
+- Commit trên nhánh `NguyenMinhPhuc`: `cd1e1f1` (báo cáo cá nhân CP1 + CP2), `c8014b1` (thông tin mục 2.1 vào báo cáo nhóm).
+- [Báo cáo cá nhân](report/individual/2A202603894_NguyenMinhPhuc.md), [báo cáo nhóm](report/team/group_report.md).
+
+**Điều mình học được từ phần nhóm:**
+
+- Bottleneck thật có thể là một bước chưa tồn tại trong quy trình (ở card #3 của mình là bước ghi lại sau mỗi buổi học), không phải bước đang tốn thời gian.
+- Nhóm có 0 phỏng vấn thật nên snapshot mô phỏng không tính là bằng chứng; nên phỏng vấn 1–2 người thật trước khi chấm điểm shortlist.
+- Nên đo baseline checklist trước rồi mới bàn tới Agent; nếu checklist đã đạt ≤20 phút thì không cần thêm Agent.
+
+### PhamQuangDung-2A202603896
+
+**Phần việc phụ trách:**
+
+- CP4 — Research (người chính): đối chiếu các giải pháp onboarding hiện có.
+- CP6 — Problem Statement v1 và eval (người chính).
+- CP3 — hỗ trợ lập cây OST và tổng hợp điểm; CP5 — hỗ trợ đối chiếu số bước, thời gian và việc cần người duyệt.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch 3 candidate (#10, #11, #12 ở mục 2.1); candidate #12 được đưa vào Cluster C và bảng chấm điểm.
+- Đặt câu hỏi phản biện cho card #3 (Hoàng), #5 (Phúc), #9 (Trung) và trả lời câu hỏi phản biện cho 3 card của mình (ghi ở cột phản biện mục 2.1).
+- Hỗ trợ CP3: rà cây OST và kiểm lại tổng điểm bảng shortlist mục 2.4.
+- Hỗ trợ CP5: lập bảng đối chiếu từng bước mục 4.4 (thời gian hiện tại và mục tiêu, ai làm, người duyệt); xác nhận tổng 210 → ≤ 170 phút và bước nghẽn khớp giữa mục 4, 5 và 7.
+- Làm bảng research mục 3.3: 6 nguồn có link đã tự mở và kiểm, ghi rõ mỗi nguồn giải bước nào, còn bỏ trống bước nào, điều kiện và hạn chế; bỏ nguồn GitLab vì link lỗi. Rút ra kết luận phần tra cứu và phê duyệt đã có công cụ làm sẵn, đề xuất baseline cụ thể "checklist + công cụ tìm kiếm có sẵn".
+- Làm mục 7: Success Metric có baseline, target và cách đo; Boundary liệt kê việc AI không được làm; bảng thay đổi v0 → v1 có lý do; bộ 10 ca eval thêm cột baseline và cách chạy eval với 2 người chấm độc lập.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md` mục 2.1 (dòng #10–#12), mục 3.3, mục 4.4, mục 7.
+- Commit trên nhánh `PhamQuangDung`: `3be3a3c` (thêm 3 candidate vào bảng pitch), `50a2456` (làm lại mục 3.3 và mục 7), `88bdadd` (bổ sung mục 4.4).
+
+**Điều mình học được từ phần nhóm:**
+
+- Card được chọn không hẳn là card đau nhất, mà là card có actor, số bước và các bên bàn giao rõ nhất; pain cá nhân thì dễ viết nhưng khó chứng minh nhiều người cũng gặp.
+- Chưa có số phút từng bước thì bottleneck vẫn chỉ là cảm giác; câu hỏi phản biện của Trung cho card #3 cho mình thấy điều này.
+- Nên research công cụ có sẵn trước khi chọn mức can thiệp: Rovo, Backstage và Jira Service Management đã giải phần lớn việc tra cứu và phê duyệt, nên Agent chỉ được triển khai khi chứng minh tốt hơn baseline và Workflow.
+- Nhóm nên pitch và phản biện trực tiếp trước rồi mới chia việc, và phỏng vấn người dùng thật trước khi viết Problem Statement.
