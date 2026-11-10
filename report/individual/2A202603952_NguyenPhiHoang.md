@@ -195,7 +195,6 @@ AI hỗ trợ cả biên soạn, rộng hơn giới hạn “chỉ phản biện
 
 ## 6. Reflection (CP7)
 
-> Bản nháp có AI hỗ trợ để Hoàng rà lại; chưa phải reflection tự viết đáp ứng quy định CP7.
 
 **6.1. Tôi học được gì từ các problem của nhóm?**
 
