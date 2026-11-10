@@ -48,6 +48,34 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - **Tiếp theo:** Phỏng vấn hai người mới và một mentor ngoài nhóm; đo baseline, so Agent với Workflow.
 - **Bằng chứng:** [Báo cáo cá nhân](report/individual/2A202603952_NguyenPhiHoang.md), [báo cáo nhóm](report/team/group_report.md).
 
+### NguyenMinhPhuc-2A202603894
+
+**Phần việc phụ trách:**
+
+- CP5 — Problem Statement v0 (người chính); CP6 — Mức can thiệp AI (người chính).
+- CP4 — Research: hỗ trợ kiểm tra nguồn; CP6 — Problem Statement v1 và eval: hỗ trợ đối chiếu v1 với v0.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch 3 candidate (#4, #5, #6 ở mục 2.1) lấy từ 3 Problem Card CP2; #4 (chấm bài, lỗi lặp lại) đại diện Cluster B và vào shortlist với 27/35 điểm, không được chọn vì cần chuyên môn Hoá và dữ liệu lỗi xuyên nhiều buổi.
+- Đặt câu hỏi phản biện cho card #1 (Hoàng), #7 (Trung), #11 (Dũng) và trả lời phản biện cho 3 card của mình (cột phản biện mục 2.1).
+- Câu hỏi "Agent hay Workflow?" cho card #1 trở thành phép so sánh Agent với Workflow ở mục 6.2, mục 8.2 và điều kiện pilot của nhóm.
+- Phản biện card #3 của mình bằng AI (vai "PM hoài nghi"): đồng ý 5/6 điểm, sửa Actor, Impact, Bottleneck; bỏ điểm "nhảy sang AI quá sớm" vì card đã để No AI / Rule làm hướng đầu tiên.
+
+**Trạng thái:** Chưa phỏng vấn người dùng thật, chưa chạy pilot/eval; baseline 60/210 phút là ước tính, chưa đo thực tế.
+
+**Bằng chứng:**
+
+- `group_report.md` mục 2.1 (dòng #4–#6), mục 2.4, mục 5, mục 6.
+- Commit trên nhánh `NguyenMinhPhuc`: `cd1e1f1` (báo cáo cá nhân CP1 + CP2), `c8014b1` (thông tin mục 2.1 vào báo cáo nhóm).
+- [Báo cáo cá nhân](report/individual/2A202603894_NguyenMinhPhuc.md), [báo cáo nhóm](report/team/group_report.md).
+
+**Điều mình học được từ phần nhóm:**
+
+- Bottleneck thật có thể là một bước chưa tồn tại trong quy trình (ở card #3 của mình là bước ghi lại sau mỗi buổi học), không phải bước đang tốn thời gian.
+- Nhóm có 0 phỏng vấn thật nên snapshot mô phỏng không tính là bằng chứng; nên phỏng vấn 1–2 người thật trước khi chấm điểm shortlist.
+- Nên đo baseline checklist trước rồi mới bàn tới Agent; nếu checklist đã đạt ≤20 phút thì không cần thêm Agent.
+
 ### PhamQuangDung-2A202603896
 
 **Phần việc phụ trách:**
