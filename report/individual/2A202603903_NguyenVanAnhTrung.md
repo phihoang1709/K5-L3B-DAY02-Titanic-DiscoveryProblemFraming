@@ -82,7 +82,7 @@ Quy trình nháp hiện tại:
 | Actor |Lab coach, bản thân|
 | Thời điểm / bối cảnh |Thứ 6-7 tuần trước, khi hoàn thành bài lab trước|
 | Quy trình hiện tại (3–7 bước) |Vấn đề khó: 1, Gõ từ khóa liên quan lên Google, 2. Kiểm tra trang nào chứa tài liệu mình cần, 3. Đọc tài liệu |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Mất 30 phút - 1 tiếng ở bước 2. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | Mất 30 phút - 1 tiếng ở bước 2. Đặc biệt là thông tin về pyTorch mất gần 45p - 1 tiếng để search ra cú pháp nhúng NN |
 | Impact (nếu không giải thì sao) | Nộp sát giờ bài chưa hoàn thành -> mất điểm lab|
 | Success metric (baseline → target) | Test code để kiểm tra, kiểm chứng thông tin, tỉ lệ nội dung trong bài được hoàn thành từ 60% -> 100%, giữ số lần nộp muộn ở 0 lần|
 | Phương án không dùng AI | Đọc lướt qua từng trang trên google |
@@ -113,7 +113,7 @@ Gặp vấn đề khó
 | Actor |Trưởng nhóm, kế toán trưởng |
 | Thời điểm / bối cảnh |Vào thứ 2 tuần đầu tiên tháng, hóa đơn từ tháng trước chưa được tổng hợp |
 | Quy trình hiện tại (3–7 bước) |1. Nhìn dữ liệu trong hóa đơn, 2. Ghi nhớ dữ liệu, 3. Gõ phím nhập dữ liệu, 4. So sánh kết quả trên hệ thống và trên giấy |
-| Bottleneck (bước nào, mất bao nhiêu phút) | Mất 1 phút để thực hiện bước 2|
+| Bottleneck (bước nào, mất bao nhiêu phút) | Mất 1 phút để thực hiện bước 2, đặc biệt các trường liên quan đến thành tiền phải xem lại trong vòng 2-3 lần|
 | Impact (nếu không giải thì sao) | Không có kịp kết quả để trưởng nhóm báo cáo lên ban lãnh đạo|
 | Success metric (baseline → target) |Số dòng bị sai giảm từ 5% xuống 2%, tổng thời gian hoàn thành từ 30 phút -> 5 phút, sai số khi so sánh kết quả trong khoảng từ $\pm$10VNĐ -> $\pm$ 1 VNĐ|
 | Phương án không dùng AI |Form hỗ trợ |
@@ -157,16 +157,16 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
+| Pitch Problem Card | Đưa 3 card đã chọn ở CP2 vào bảng pitch nhóm: #7 (Daily stand-up), #8 (Lab report), #9 (Đọc hóa đơn) | Cả 3 card được đưa vào bảng pitch |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: (#6 của Phúc) Lần gần nhất hỏi về tiến bộ của con, phụ huynh muốn xem bằng chứng gì?; (#2 của Hoàng) Nếu đã có script cài đặt, lỗi lệch phiên bản nào vẫn phải dò tay?; (#12 của Dũng) Trong 12 bài bị loại, bao nhiêu bài có thể loại ngay khi đọc tóm tắt? | Cả 3 câu hỏi được đưa vào bảng pitch. Mỗi câu buộc tác giả card đưa ra một bằng chứng cụ thể: #6 cần loại bằng chứng phụ huynh thật sự xem (điểm kiểm tra, điểm tổng kết…), #2 cần chỉ ra lỗi phiên bản vẫn phải dò tay, #12 cần số bài loại được ngay từ tóm tắt |
+| Nhận phản biện | Câu hỏi tôi nhận được: Trong 1–2 giờ làm standup, bước nào lâu nhất: tìm lại việc đã làm hay viết báo cáo? (bởi Phúc), Ở buổi lab gần nhất, tài liệu nào mất nhiều thời gian tìm nhất? (bởi Hoàng), Khi nhập hóa đơn, bạn hay quên trường nào và phải nhìn lại mấy lần? (bởi Dũng)| Tôi đã sửa gì: Bổ sung thêm các bằng chứng rõ ràng vào bottleneck: Số lần xem lại và trường hay xem lại ở card 3, phần kiến thức khó tổng hợp nhất và mất bao lâu mới tổng hợp được |
+| Gom cluster / cây OST | |  |
+| Chọn candidate problem |  |  |
+| Kiểm chứng / research | |  |
 | Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Problem Statement | Không trực tiếp viết v1 (Dũng viết, Phúc đối chiếu với v0 và rà tiêu chí đạt) | Nhóm có bảng thay đổi từ v0 sang v1, tiêu chí đạt và bộ ca eval mẫu |
+| Mức can thiệp AI | Đối chiếu từng phương án mà Phúc so sánh (No AI, Rule, Workflow, Agent) với các bước HR, IT và mentor phải duyệt | Góp phần hoàn thiện ma trận so sánh và AI Canvas; làm rõ lý do nhóm chọn Agent hỗ trợ onboarding |
+| Quyết định | Đối chiếu điều kiện mở pilot và ngưỡng dừng với bốn rủi ro do Hoàng tổng hợp | Nhóm thống nhất quyết định **Not Yet**, kèm điều kiện mở pilot và ngưỡng dừng gắn với từng rủi ro |
 
 ---
 
@@ -175,11 +175,12 @@ Quy trình nháp hiện tại:
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
 | CP1 Scan | Gợi ý bổ sung job story|Bổ sung các job story trong giới hạn 2 ngày học|Các vấn đề sẽ xuất hiện ở các ngày sau| Loại bỏ các job story không phù hợp bối cảnh đã trải qua hai ngày học|
-| CP2 Problem Card |Phản biện problem card|Chỉ ra một số thông tin cần làm rõ, nhìn ra mâu thuẫn giữa tình huống, động cơ, kết quả| | |
+| CP2 Problem Card |Phản biện problem card|Chỉ ra một số thông tin cần làm rõ, nhìn ra mâu thuẫn giữa tình huống, động cơ, kết quả trong job stories| |Một số thông tin đã được bổ sung để làm rõ job stories |
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP5–6 Problem Statement | Nhờ AI đọc v1 (do Dũng viết) và chỉ ra chỗ mơ hồ, chỗ chưa đo được | Liệt kê nhanh các cụm từ chung chung, gợi ý cách viết lại thành tiêu chí đo được | Gợi ý tiêu chí mang tính lý thuyết, không bám vào quy trình onboarding thực tế; chưa phân biệt rõ v0 và v1 khác nhau ở đâu | Chỉ giữ góp ý có thể kiểm chứng bằng ca eval; bỏ các tiêu chí không ai trong HR/IT/mentor thực sự đo được |
+| CP6 Mức can thiệp / quyết định | CP6 Mức can thiệp / quyết định | Nhờ AI so sánh No AI, Rule, Workflow, Agent và liệt kê rủi ro khi triển khai Agent hỗ trợ onboarding | Đưa ra khung so sánh ban đầu và danh sách rủi ro tổng quát để nhóm không bỏ sót | Mặc định Agent là phương án tốt nhất, bỏ qua các bước HR, IT, mentor bắt buộc phải duyệt; đề xuất triển khai luôn mà không có điều kiện dừng | Đối chiếu từng phương án với các bước phải duyệt; gắn điều kiện mở pilot và ngưỡng dừng với bốn rủi ro nhóm đã chốt, dẫn tới quyết định **Not Yet** |
+|Khác|Pull và fix conflict trước khi push trở lại file lên Github|Tìm điểm khác nhau của file cũ và file mới để loại bỏ||Giữ nội dung trên file mới
 
 ---
 
@@ -189,22 +190,33 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Tôi học được cách diễn đạt vấn đề và dựng các tình huống sao cho không có mâu thuẫn hoặc có sự chưa rõ ràng khi xây dựng Job stories. Hơn nữa, tôi có thể học được cách tìm dấu hiệu xuất hiện problem. Ngoài ra card #12 của Dũng trong bảng 2.1 là card có cùng chủ đề
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Tôi đã đổi ý sau khi bị phản biện về problem card 3 của tôi, lúc đó tôi chưa biết về các giải pháp đọc hóa đơn như OCR nên tôi đã bổ sung nó như một giả thuyết về AI. Ngoài ra, với card 1 và 2, success metric chỉ gồm tiêu chí chung chung, chưa đủ hai con số rõ ràng, 1 con số về baseline và một con số về target đạt được sau khi có hỗ trợ từ AI. Ngoài ra, bottleneck của cả 3 card lúc đó chưa được cụ thể hóa bằng con số (thời gian card, các trường thông tin phải kiểm tra) nên các dấu hiệu bottleneck của cả 3 card đã được bổ sung. 
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Điều khó nhất khi viết Problem Statement là lựa chọn cách diễn đạt các trường thông tin sao cho chúng không có sự mâu thuẫn lẫn nhau, luôn rõ ràng về mặt số liệu biểu đạt. Ngoài ra Problem Statement cần phải ngắn gọn
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+Nếu làm lại, tôi sẽ thay đổi cách lựa context để diễn đạt rõ ràng về job stories, tìm hiểu thêm yêu cầu và cách tính success metric cụ thể để có baseline. Hơn nữa, tôi sẽ bổ sung thêm bằng chứng khi so sánh các dữ liệu với nhau
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
-Tôi học được cách diễn đạt vấn đề và dựng các tình huống sao cho không có mâu thuẫn hoặc có sự chưa rõ ràng khi xây dựng Job stories và đo dấu hiệu
-Tôi đã đổi ý sau khi bị phản biện về problem card 3 của tôi, lúc đó tôi chưa biết về các giải pháp đọc hóa đơn như OCR nên tôi đã bổ sung nó như một giả thuyết về AI
-Điều khó nhất khi viết Problem Statement là lựa chọn cách diễn đạt các trường thông tin sao cho chúng không có sự mâu thuẫn lẫn nhau, luôn rõ ràng về mặt số liệu biểu đạt.
-Nếu làm lại, tôi sẽ thay đổi cách lựa context để diễn đạt rõ ràng về job stories, tìm hiểu thêm yêu cầu về metric.
+Problem: Nhân viên mới lần đầu nhận việc ở công ty
+Quy trình: Nhận hướng dẫn -> Xác nhận tài khoản -> Gửi hồ sơ -> Duyệt và nhận tài nguyên -> Tìm và đọc tài liệu liên quan đến dự án
+Metric: Hoàn tất các thủ tục
+Boundary: Tài liệu được phép / không được phép đọc theo yêu cầu của nhân viên mới
+Quyết định: NOT YET - Cần bổ sung thêm dữ liệu
+
+
+
 
 
 ---
