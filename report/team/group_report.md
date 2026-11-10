@@ -3,8 +3,6 @@
 > Bản chung của nhóm, viết trên repo do nhóm trưởng fork. Không copy file này sang repo cá nhân.
 > Template chi tiết và prompt mẫu: [docs/01-worksheet.md](../../docs/01-worksheet.md). Bài mẫu: [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md).
 
-> **Nguồn dữ liệu:** Mục 2.2 trở đi là case mô phỏng; ba snapshot không phải phỏng vấn thật. Số mẫu thực tế: **0**. Điểm shortlist là đánh giá biên soạn; mốc 60/210 phút lấy từ ước lượng trong card Hoàng. Nguồn sản phẩm đã kiểm tra; chưa chạy pilot/eval.
-
 ## 1. Thông tin nhóm
 
 - Tên nhóm: Titanic

@@ -219,3 +219,15 @@ Nếu được làm lại, mình nghĩ nhóm nên pitch và phản biện trực
 Qua bài này mình hiểu rõ hơn cách liên kết 6 mắt xích. Problem là người mới khó tìm đúng tài liệu theo vai trò và phiên bản. Bottleneck nằm ở bước 5/7, mất khoảng 60 phút. Metric là giảm xuống không quá 20 phút, đạt 10/10 ca eval và không có lỗi quyền. Boundary là AI không được cấp quyền, gửi hay duyệt yêu cầu, hoặc xác nhận hoàn tất. Agent là thiết kế được chọn nhưng chưa triển khai, vì công cụ hiện có đã hỗ trợ phần tra cứu nên Agent phải chứng minh tốt hơn baseline và Workflow. Cuối cùng, nhóm chọn Not Yet vì còn thiếu người dùng thật, dữ liệu và quyền truy cập để kiểm chứng, đồng thời đã xác định ngưỡng dừng.
 
 ---
+## 7. Tài liệu tham khảo
+
+- [Báo cáo nhóm](../team/group_report.md): mục 2.1 (bảng pitch và câu hỏi phản biện), mục 3.3 (research), mục 4.4 (đối chiếu từng bước), mục 7 (Problem Statement v1 và eval).
+- [Worksheet](../../docs/01-worksheet.md): Job Story, Problem Card, prompt phản biện "PM hoài nghi", tiêu chí eval.
+- [Rubric](../../RUBRIC.md) và [Rules](../../RULES.md): tiêu chí chấm và quy định dùng AI.
+- Nguồn research ở mục 3.3 báo cáo nhóm, tự mở và kiểm ngày 10/11/2026:
+  - [Confluence — HR templates](https://www.atlassian.com/software/confluence/templates/collections/hr)
+  - [Backstage — Software Catalog](https://backstage.io/docs/features/software-catalog/) và [TechDocs](https://backstage.io/docs/features/techdocs/)
+  - [Jira Service Management — Approvals](https://support.atlassian.com/jira-service-management-cloud/docs/what-are-approvals/)
+  - [Notion — Enterprise Search](https://www.notion.com/help/enterprise-search)
+  - [Atlassian Rovo](https://support.atlassian.com/rovo/docs/what-is-rovo/)
+  - [Anthropic — Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
