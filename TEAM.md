@@ -52,15 +52,20 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
--
+- CP4 — Research (người chính): đối chiếu các giải pháp onboarding hiện có.
+- CP6 — Problem Statement v1 và eval (người chính).
+- CP3 — hỗ trợ lập cây OST và tổng hợp điểm; CP5 — hỗ trợ đối chiếu số bước, thời gian và việc cần người duyệt.
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- Pitch 3 candidate (#10, #11, #12 ở mục 2.1); candidate #12 được đưa vào Cluster C và bảng chấm điểm.
+- Làm bảng research mục 3.3: 6 nguồn có link đã tự mở và kiểm, ghi rõ mỗi nguồn giải bước nào, còn bỏ trống bước nào, điều kiện và hạn chế; bỏ nguồn GitLab vì link lỗi. Rút ra kết luận phần tra cứu và phê duyệt đã có công cụ làm sẵn, đề xuất phương án đối chứng "checklist + công cụ tìm kiếm có sẵn".
+- Làm mục 7: Success Metric có baseline, target và cách đo; Boundary liệt kê việc AI không được làm; bảng thay đổi v0 → v1 có lý do; bộ 10 ca eval thêm cột phương án đối chứng và cách chạy eval với 2 người chấm độc lập.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
--
+- `group_report.md` mục 2.1 (dòng #10–#12), mục 3.3, mục 7.
+- Commit trên nhánh `PhamQuangDung`: `3be3a3c` (thêm 3 candidate vào bảng pitch) và commit cập nhật mục 3.3, mục 7.
 
 **Điều mình học được từ phần nhóm:**
 

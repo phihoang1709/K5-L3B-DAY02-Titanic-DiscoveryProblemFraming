@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — MSSV_PhamQuangDung
+# Báo cáo cá nhân — 2A202603896_PhamQuangDung
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -171,9 +171,9 @@ TỔNG QUAN TÀI LIỆU: ~5 giờ/tuần, 20 bài đọc → 8 bài dùng đư�
 | Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | | |
-| Kiểm chứng / research | | |
+| Kiểm chứng / research | Người chính phần research CP4 (mục 3.3 báo cáo nhóm): làm bảng research với 6 nguồn (Confluence HR templates, Backstage Software Catalog và TechDocs, Jira Service Management Approvals, Notion Enterprise Search, Atlassian Rovo, Anthropic "Building effective agents"); tự mở và kiểm từng link, bỏ nguồn GitLab handbook vì link lỗi 404 hoặc không đọc được nội dung | Nhóm thấy phần tra cứu tài liệu và phê duyệt đã có công cụ làm sẵn; chỗ còn trống chỉ là ghép thông tin khi người mới vướng mắc. Đề xuất phương án đối chứng "checklist + công cụ tìm kiếm có sẵn" cho mục 6 và 8 |
 | Quy trình nhóm | | |
-| Problem Statement | | |
+| Problem Statement | Người chính Problem Statement v1 và eval (mục 7 báo cáo nhóm): viết lại Success Metric có baseline, target và cách đo; liệt kê rõ việc AI không được làm trong Boundary; viết lại bảng thay đổi v0 → v1 có lý do; thêm cột "phương án đối chứng xử lý được?" và cách chạy eval cho 10 ca | v1 không còn coi Agent là kết luận mà là hướng thiết kế để thử: Agent chỉ được giữ nếu đạt các ca T04, T07, T08 mà phương án đối chứng và Workflow không đạt. Ghi rõ v1 chưa có thay đổi nào từ phỏng vấn thật |
 | Mức can thiệp AI | | |
 | Quyết định | | |
 
@@ -185,9 +185,9 @@ TỔNG QUAN TÀI LIỆU: ~5 giờ/tuần, 20 bài đọc → 8 bài dùng đư�
 |---|---|---|---|---|
 | CP1 Scan | Research tiếng Anh (Reddit, diễn đàn gia sư, khảo sát giáo viên, paper) để tìm pain theo 4 lăng kính, sát hai vai của tôi | Tìm được khảo sát giáo viên (EdWeek, NASUWT) và nghiên cứu lỗi giải toán có lời văn có số liệu cụ thể | Đợt đầu đưa ra pain của developer đi làm, không phải việc của tôi; nhiều số liệu đến từ blog của bên bán công cụ | Bỏ đợt scan đầu, chỉ giữ ý thuộc việc dạy thêm và năm cuối; cột dấu hiệu thật chỉ giữ số tự đo; bỏ 4 ý không đo được (chấm bài, nhóm lệch trình độ, học sinh đọc đề, đổi lịch và học phí) |
 | CP2 Problem Card | Chọn top 3, soạn nháp Problem Card và quy trình từ số tự đo ở CP1; đóng vai PM hoài nghi phản biện card #1 | Chỉ ra phần "ôn bài cũ" không phải lãng phí, và tin nhắn phụ huynh đã có sẵn thông tin cần, nên có thể không cần AI | Quy trình từng bước là nháp, chưa bấm giờ; số phút từng bước chưa có | Đo riêng phần tìm lại chỗ dừng; chuyển cảm nhận card #1 sang No AI / Rule; để trống số phút từng bước để tự bấm giờ |
-| CP4 Research | | | | |
+| CP4 Research | Tìm giải pháp onboarding đã có, tóm tắt mỗi nguồn giải bước nào, còn bỏ trống bước nào, điều kiện và hạn chế | Tìm nhanh trang tài liệu chính thức (Atlassian, Backstage, Notion, Anthropic) và chỉ ra điều kiện dễ bị bỏ qua: gói trả phí, admin phải cài connector, Notion không nói kết quả tuân theo quyền | Gợi ý nguồn GitLab handbook nhưng 2 link lỗi 404, link còn lại không đọc được nội dung; một số mô tả lấy từ blog của bên thứ ba thay vì trang chính thức | Tự mở và kiểm lại từng link; bỏ GitLab; chỉ giữ thông tin có trên trang chính thức |
 | CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
+| CP5–6 Problem Statement | Soát Problem Statement v1 và bộ eval theo rubric, đề xuất cách viết lại | Chỉ ra Success Metric thiếu cách đo, Boundary còn chung chung, và lý do đổi từ v0 sang v1 chưa gắn với research | Cột "phương án đối chứng xử lý được?" trong bộ eval chỉ là suy đoán từ trang sản phẩm, AI không biết tổ chức thật cấu hình công cụ thế nào; baseline 60 phút vẫn là ước lượng | Ghi rõ cột đó là giả thuyết cần kiểm khi chạy eval; đổi Agent thành hướng thiết kế để thử; thêm phương án đối chứng và điều kiện giữ Agent; ghi rõ chưa có thay đổi từ phỏng vấn thật |
 | CP6 Mức can thiệp / quyết định | | | | |
 
 ---
