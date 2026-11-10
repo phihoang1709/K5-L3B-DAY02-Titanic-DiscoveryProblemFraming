@@ -26,7 +26,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | 5 |Tốn thời gian|	Khi làm bài nhóm, tôi muốn biết ai đang làm phần nào và tiến độ đến đâu mà không phải hỏi từng người, để tránh làm trùng và kịp ghép bài trước deadline.|Các thành viên nhóm|Hai người làm trùng một phần. Ghép code sát giờ nộp và bị conflict.
 | 6 |Tốn thời gian|Khi hoàn thành file tổng hợp hóa đơn vào đầu tháng, tôi muốn tổng hợp dữ liệu để gửi cho trưởng nhóm vào cuối tuần đầu của tháng đó |Trưởng nhóm| Mất khoảng 30 phút để nhập tất cả hóa đơn vào file
  
-**Nếu có dùng AI để gợi ý thêm:** Sau khi tự scan được 4 ý, AI gợi ý thêm gợi ý số 3, 4, 5 để đủ ít nhất 5 problem
+**Nếu có dùng AI để gợi ý thêm:** Sau khi tự scan được 3 ý, AI gợi ý thêm gợi ý số 3, 4, 5 để đủ ít nhất 5 problem
 
 
 
@@ -52,7 +52,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | Quy trình hiện tại (3–7 bước) |1. Tổng hợp thông tin , 2. Gõ ra các gạch đầu dòng ra một file sticky notes, 3. Copy các notes đó vào hệ thống, 4. Nộp|
 | Bottleneck (bước nào, mất bao nhiêu phút) |Bước 1, mất 1-2 tiếng|
 | Impact (nếu không giải thì sao) | Mất quyền lợi, ảnh hưởng đến mentor |
-| Success metric (baseline → target) | |
+| Success metric (baseline → target) |Thời gian chuẩn bị từ 1-2 tiếng -> 10 phút |
 | Phương án không dùng AI |Đọc qua tất cả các trang|
 | Giả thuyết về AI (nếu có) | |
 | Cảm nhận nhanh | Chưa biết |
@@ -84,7 +84,7 @@ Quy trình nháp hiện tại:
 | Quy trình hiện tại (3–7 bước) |Vấn đề khó: 1, Gõ từ khóa liên quan lên Google, 2. Kiểm tra trang nào chứa tài liệu mình cần, 3. Đọc tài liệu |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Mất 30 phút - 1 tiếng ở bước 2. |
 | Impact (nếu không giải thì sao) | Nộp sát giờ bài chưa hoàn thành -> mất điểm lab|
-| Success metric (baseline → target) | Test code để kiểm tra, kiểm chứng thông tin|
+| Success metric (baseline → target) | Test code để kiểm tra, kiểm chứng thông tin, tỉ lệ nội dung trong bài được hoàn thành từ 60% -> 100%, giữ số lần nộp muộn ở 0 lần|
 | Phương án không dùng AI | Đọc lướt qua từng trang trên google |
 | Giả thuyết về AI (nếu có) | |
 | Cảm nhận nhanh | Chưa biết |
@@ -115,7 +115,7 @@ Gặp vấn đề khó
 | Quy trình hiện tại (3–7 bước) |1. Nhìn dữ liệu trong hóa đơn, 2. Ghi nhớ dữ liệu, 3. Gõ phím nhập dữ liệu, 4. So sánh kết quả trên hệ thống và trên giấy |
 | Bottleneck (bước nào, mất bao nhiêu phút) | Mất 1 phút để thực hiện bước 2|
 | Impact (nếu không giải thì sao) | Không có kịp kết quả để trưởng nhóm báo cáo lên ban lãnh đạo|
-| Success metric (baseline → target) |Kết quả phải khớp với kết quả của kế toán trưởng và trưởng nhóm|
+| Success metric (baseline → target) |Số dòng bị sai giảm từ 5% xuống 2%, tổng thời gian hoàn thành từ 30 phút -> 5 phút, sai số khi so sánh kết quả trong khoảng từ $\pm$10VNĐ -> $\pm$ 1 VNĐ|
 | Phương án không dùng AI |Form hỗ trợ |
 | Giả thuyết về AI (nếu có) | AI hỗ trợ đọc các thông tin trong hóa đơn giấy và tổng hợp lại dữ liệu trong đó |
 | Cảm nhận nhanh | Rule |
@@ -175,7 +175,7 @@ Quy trình nháp hiện tại:
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
 | CP1 Scan | Gợi ý bổ sung job story|Bổ sung các job story trong giới hạn 2 ngày học|Các vấn đề sẽ xuất hiện ở các ngày sau| Loại bỏ các job story không phù hợp bối cảnh đã trải qua hai ngày học|
-| CP2 Problem Card |Phản biện problem card|Chỉ ra một số thông tin cần làm rõ| | |
+| CP2 Problem Card |Phản biện problem card|Chỉ ra một số thông tin cần làm rõ, nhìn ra mâu thuẫn giữa tình huống, động cơ, kết quả| | |
 | CP4 Research | | | | |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
@@ -200,6 +200,12 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Tôi học được cách diễn đạt vấn đề và dựng các tình huống sao cho không có mâu thuẫn hoặc có sự chưa rõ ràng khi xây dựng Job stories và đo dấu hiệu
+Tôi đã đổi ý sau khi bị phản biện về problem card 3 của tôi, lúc đó tôi chưa biết về các giải pháp đọc hóa đơn như OCR nên tôi đã bổ sung nó như một giả thuyết về AI
+Điều khó nhất khi viết Problem Statement là lựa chọn cách diễn đạt các trường thông tin sao cho chúng không có sự mâu thuẫn lẫn nhau, luôn rõ ràng về mặt số liệu biểu đạt.
+Nếu làm lại, tôi sẽ thay đổi cách lựa context để diễn đạt rõ ràng về job stories, tìm hiểu thêm yêu cầu về metric.
+
 
 ---
 
