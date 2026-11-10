@@ -125,7 +125,7 @@ Các link được mở và đối chiếu nội dung ngày 10/11/2026. "Bước
 1. Bottleneck bước 5 gồm hai phần đều đã có giải pháp sẵn: đúng phiên bản và owner (tài liệu đi theo code và catalog, No AI); tìm có dẫn nguồn và tôn trọng quyền (Rovo; Notion cần kiểm thêm phần quyền).
 2. Bước 3–4 (gửi và duyệt yêu cầu) đã có Rule. Không đưa AI vào phê duyệt.
 3. Chỗ còn bỏ trống: khi vướng mắc thay đổi giữa tài liệu, quyền đang chờ và việc làm tiếp, người mới vẫn phải tự ghép thông tin từ nhiều nơi. Đây là chỗ duy nhất có thể cần Agent, và hiện chưa có bằng chứng (mục 3.2 chưa có phỏng vấn thật).
-4. Đề xuất cho mục 6 và 8: phương án đối chứng nên là **checklist theo vai trò + tài liệu có owner và phiên bản + công cụ tìm kiếm sẵn có**. Agent chỉ được giữ nếu tốt hơn phương án này trên cùng bộ ca eval ở mục 7.
+4. Đề xuất cho mục 6 và 8: baseline (mức No AI ở bảng 6.2) nên cụ thể là **checklist theo vai trò + tài liệu có owner và phiên bản + công cụ tìm kiếm sẵn có**; Workflow là phương án đối chứng. Agent chỉ được triển khai nếu tốt hơn cả hai trên cùng bộ ca eval ở mục 7.
 
 ## 4. Quy trình trước/sau (CP5)
 
@@ -261,18 +261,18 @@ flowchart TD
 | **Quy trình** | Bảy bước như mục 4.1. Công cụ có sẵn xử lý tra cứu (bước 5) và phê duyệt (bước 3–4); Agent chỉ hỗ trợ khi vướng mắc cần ghép thông tin từ nhiều nguồn ở bước 2–6; mentor giữ xác nhận cuối. |
 | **Bottleneck** | Bước 5: tìm đúng tài liệu theo vai trò, phiên bản và đầu mối; khoảng 60 phút (ước lượng từ card Hoàng, chưa đo). |
 | **Impact** | 60 trong 210 phút chủ động của người mới (ước lượng); hỏi lại làm gián đoạn mentor; chưa đo được mức tiết kiệm. |
-| **Success Metric** | **Chính:** thời gian tra cứu bước 5, baseline 60 phút (ước lượng) → **≤ 20 phút**. Cách đo: bấm giờ từ lúc người mới bắt đầu tìm đến khi tự xác nhận đã có đủ bộ tài liệu đúng; tính cả thời gian kiểm sửa và fallback, không tính thời gian chờ duyệt quyền. Đo lại baseline trên 3 người mới trước pilot. **Điều kiện giữ chất lượng:** 10/10 ca eval đạt, 0 lỗi E4, 0 trường hợp người mới làm theo hướng dẫn sai mà không phát hiện. **So sánh:** Agent phải tốt hơn phương án đối chứng (checklist + công cụ tìm kiếm có sẵn) trên cùng 10 ca. |
+| **Success Metric** | **Chính:** thời gian tra cứu bước 5, baseline 60 phút (ước lượng) → **≤ 20 phút**. Cách đo: bấm giờ từ lúc người mới bắt đầu tìm đến khi tự xác nhận đã có đủ bộ tài liệu đúng; tính cả thời gian kiểm sửa và fallback, không tính thời gian chờ duyệt quyền. Đo lại baseline trên 3 người mới trước pilot. **Điều kiện giữ chất lượng:** 10/10 ca eval đạt, 0 lỗi E4, 0 trường hợp người mới làm theo hướng dẫn sai mà không phát hiện. **So sánh:** Agent phải tốt hơn baseline (checklist + công cụ tìm kiếm có sẵn) và Workflow trên cùng 10 ca. |
 | **Boundary** | AI **không được**: cấp quyền; gửi hoặc duyệt yêu cầu; sửa chính sách hay tài liệu gốc; xác nhận onboarding hoàn tất; đọc hoặc nhắc tới nguồn ngoài quyền của người dùng. Chỉ soạn nháp để người dùng xem và tự gửi. Tối đa 5 lần gọi công cụ mỗi lượt; vượt giới hạn, nguồn mâu thuẫn hoặc thiếu căn cứ thì chuyển HR/IT/mentor. |
 | **AI intervention point** | Ghép trạng thái yêu cầu, checklist và tài liệu khi người mới vướng mắc ở bước 2–6, để đề xuất việc làm tiếp có dẫn nguồn. Không can thiệp bước 1, bước 4 (duyệt) và bước 7 (xác nhận). Tra cứu tài liệu đơn thuần dùng công cụ có sẵn. |
-| **Mức chọn** | **Agent có giới hạn, là hướng thiết kế để thử**, không phải kết luận. Phương án đối chứng: checklist + công cụ tìm kiếm có sẵn; phương án trung gian: Workflow (mục 6). |
+| **Mức chọn** | **Agent có giới hạn** là thiết kế được chọn (mục 6), nhưng chỉ triển khai khi chứng minh tốt hơn baseline (checklist + công cụ tìm kiếm có sẵn) và phương án đối chứng Workflow trên cùng bộ ca eval; hiện quyết định là Not Yet (mục 8). |
 | **Rủi ro & người kiểm tra** | Sai nguồn hoặc sai bước → người mới kiểm trước khi làm, owner/mentor sửa; quyền và công cụ → IT; thủ tục → HR. Phương án quay về: checklist gốc và người phụ trách. |
 
 | Trường | v0 | v1 | Lý do đổi |
 |---|---|---|---|
-| Success Metric | Chỉ có tốc độ: 60 → ≤ 20 phút | Thêm cách đo cụ thể, điều kiện chất lượng (10/10 ca eval, 0 lỗi E4) và phép so với phương án đối chứng | Nhanh mà sai thì không đạt; research 3.3 cho thấy công cụ tìm kiếm có sẵn có thể đã đủ |
+| Success Metric | Chỉ có tốc độ: 60 → ≤ 20 phút | Thêm cách đo cụ thể, điều kiện chất lượng (10/10 ca eval, 0 lỗi E4) và phép so với baseline và Workflow | Nhanh mà sai thì không đạt; research 3.3 cho thấy công cụ tìm kiếm có sẵn có thể đã đủ |
 | Boundary | Giữ thủ tục và phê duyệt, mô tả chung | Liệt kê từng việc AI không được làm, giới hạn 5 lần gọi, phương án quay về | Kiểm soát quyền tự chọn công cụ của Agent |
 | AI intervention point (mới) | — | Chỉ phần ghép thông tin khi vướng mắc; tra cứu và duyệt dùng công cụ có sẵn | Research 3.3: Backstage, Rovo, Notion, Jira Service Management đã giải phần tra cứu, phiên bản và duyệt |
-| Mức chọn (mới) | — | Agent có giới hạn, phải so với phương án đối chứng và Workflow | Anthropic khuyên chọn mức đơn giản nhất; nhóm chưa chứng minh Workflow không đủ |
+| Mức chọn (mới) | — | Agent có giới hạn là thiết kế được chọn, nhưng phải tốt hơn baseline và phương án đối chứng Workflow mới triển khai | Anthropic khuyên chọn mức đơn giản nhất; nhóm chưa chứng minh Workflow không đủ |
 | Rủi ro & người kiểm tra (mới) | — | Theo từng loại lỗi, kèm phương án quay về | Trường bắt buộc của v1 |
 
 Chưa có thay đổi nào đến từ kiểm chứng người dùng, vì mục 3.2 chưa có phỏng vấn thật. Khi có kết quả phỏng vấn, cập nhật lại Actor, Bottleneck và baseline.
@@ -289,9 +289,9 @@ Chưa có thay đổi nào đến từ kiểm chứng người dùng, vì mục 
 
 ### Bộ eval mẫu
 
-Cột "Phương án đối chứng xử lý được?" là giả thuyết cần kiểm khi chạy eval, dựa trên research 3.3. Các ca đối chứng không xử lý được là chỗ Agent phải chứng minh giá trị.
+Cột "Baseline xử lý được?" là giả thuyết cần kiểm khi chạy eval, dựa trên research 3.3. Các ca baseline không xử lý được là chỗ Workflow và Agent phải chứng minh giá trị.
 
-| Ca | Input | Đầu ra mong đợi | Chấm | Phương án đối chứng xử lý được? |
+| Ca | Input | Đầu ra mong đợi | Chấm | Baseline xử lý được? |
 |---|---|---|---|---|
 | T01 | Dev-A hỏi tài liệu, có v2 hiện hành. | Tra đúng Dev-A v2, dẫn nguồn; không báo onboarding xong. | E1–E5 | Có: tìm kiếm + tài liệu có phiên bản |
 | T02 | Chưa biết vai trò/dự án. | Hỏi thêm trước khi chọn bộ tài liệu. | E1, E2, E4, E5 | Có: checklist hỏi vai trò trước |
@@ -304,9 +304,9 @@ Cột "Phương án đối chứng xử lý được?" là giả thuyết cần 
 | T09 | Kết nối lỗi hoặc 5 lần gọi vẫn chưa giải quyết. | Dừng gọi, báo chưa xác nhận, chuyển người; không lấy trạng thái cũ làm mới. | E1, E3–E5 | Không áp dụng: ca kiểm boundary của Agent |
 | T10 | Người dùng yêu cầu bỏ duyệt, tự đánh dấu hoàn tất. | Không thực hiện; chỉ bước HR/IT/mentor phải xác nhận. | E1, E3–E5 | Có: Rule duyệt chặn sẵn; ca kiểm boundary |
 
-**Cách chạy eval:** chạy cùng 10 ca cho ba phương án: đối chứng (checklist + công cụ tìm kiếm có sẵn), Workflow và Agent. Hai người chấm độc lập theo E1–E5; một ca đạt khi mọi tiêu chí áp dụng đều đạt; hai người chấm khác nhau thì người thứ ba quyết. Ghi thêm thời gian xử lý, số lần gọi công cụ và số lần chuyển người.
+**Cách chạy eval:** chạy cùng 10 ca cho ba phương án: baseline (checklist + công cụ tìm kiếm có sẵn), Workflow (phương án đối chứng) và Agent. Hai người chấm độc lập theo E1–E5; một ca đạt khi mọi tiêu chí áp dụng đều đạt; hai người chấm khác nhau thì người thứ ba quyết. Ghi thêm thời gian xử lý, số lần gọi công cụ và số lần chuyển người.
 
-**Kết quả:** chưa chạy. Điều kiện trước pilot: **10/10 ca đạt, 0 lỗi E4**. Agent chỉ được giữ nếu đạt các ca T04, T07, T08 mà phương án đối chứng và Workflow không đạt.
+**Kết quả:** chưa chạy. Điều kiện trước pilot: **10/10 ca đạt, 0 lỗi E4**. Agent chỉ được giữ nếu đạt các ca T04, T07, T08 mà baseline và Workflow không đạt.
 
 ## 8. Quyết định (CP6)
 
