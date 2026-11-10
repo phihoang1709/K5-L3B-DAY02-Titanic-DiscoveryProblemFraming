@@ -59,13 +59,16 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
 - Pitch 3 candidate (#10, #11, #12 ở mục 2.1); candidate #12 được đưa vào Cluster C và bảng chấm điểm.
+- Đặt câu hỏi phản biện cho card #3 (Hoàng), #5 (Phúc), #9 (Trung) và trả lời câu hỏi phản biện cho 3 card của mình (ghi ở cột phản biện mục 2.1).
+- Hỗ trợ CP3: rà cây OST và kiểm lại tổng điểm bảng shortlist mục 2.4.
+- Hỗ trợ CP5: lập bảng đối chiếu từng bước mục 4.4 (thời gian hiện tại và mục tiêu, ai làm, người duyệt); xác nhận tổng 210 → ≤ 170 phút và bước nghẽn khớp giữa mục 4, 5 và 7.
 - Làm bảng research mục 3.3: 6 nguồn có link đã tự mở và kiểm, ghi rõ mỗi nguồn giải bước nào, còn bỏ trống bước nào, điều kiện và hạn chế; bỏ nguồn GitLab vì link lỗi. Rút ra kết luận phần tra cứu và phê duyệt đã có công cụ làm sẵn, đề xuất phương án đối chứng "checklist + công cụ tìm kiếm có sẵn".
 - Làm mục 7: Success Metric có baseline, target và cách đo; Boundary liệt kê việc AI không được làm; bảng thay đổi v0 → v1 có lý do; bộ 10 ca eval thêm cột phương án đối chứng và cách chạy eval với 2 người chấm độc lập.
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- `group_report.md` mục 2.1 (dòng #10–#12), mục 3.3, mục 7.
-- Commit trên nhánh `PhamQuangDung`: `3be3a3c` (thêm 3 candidate vào bảng pitch) và commit cập nhật mục 3.3, mục 7.
+- `group_report.md` mục 2.1 (dòng #10–#12), mục 3.3, mục 4.4, mục 7.
+- Commit trên nhánh `PhamQuangDung`: `3be3a3c` (thêm 3 candidate vào bảng pitch), `50a2456` (làm lại mục 3.3 và mục 7) và commit bổ sung mục 4.4.
 
 **Điều mình học được từ phần nhóm:**
 
