@@ -78,7 +78,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 ### PhamQuangDung-2A202603896
 
-**Phần việc phụ trách:**
+**Phần việc phụ trách:** 
 
 - CP4 — Research (người chính): đối chiếu các giải pháp onboarding hiện có.
 - CP6 — Problem Statement v1 và eval (người chính).
@@ -104,3 +104,43 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Chưa có số phút từng bước thì bottleneck vẫn chỉ là cảm giác; câu hỏi phản biện của Trung cho card #3 cho mình thấy điều này.
 - Nên research công cụ có sẵn trước khi chọn mức can thiệp: Rovo, Backstage và Jira Service Management đã giải phần lớn việc tra cứu và phê duyệt, nên Agent chỉ được triển khai khi chứng minh tốt hơn baseline và Workflow.
 - Nhóm nên pitch và phản biện trực tiếp trước rồi mới chia việc, và phỏng vấn người dùng thật trước khi viết Problem Statement.
+
+### Nguyễn Văn Anh Trung - 2A202603903
+
+**Phần việc phụ trách**
+CP4 — Kiểm chứng - Chịu trách nhiệm lập bản đồ giả định và soạn câu hỏi phỏng vấn
+CP6 — Mức can thiệp AI - Đối chiếu từng phương án với các bước HR, IT và mentor phải duyệt
+CP6 — Quyết định triển khai - Đối chiếu điều kiện mở pilot và ngưỡng dừng với rủi ro
+**Đóng góp cụ thể**
+CP4 — Kiểm chứng
+
+Việc làm: Lập bản đồ giả định cho candidate onboarding. Mỗi giả định được phân loại Value, Usability, Feasibility, Viability và chấm mức quan trọng cùng mức bằng chứng. Từ các giả định rủi ro nhất, tôi soạn câu hỏi phỏng vấn.
+Sản phẩm: Bản đồ gồm 6 giả định, trong đó 4 giả định quan trọng (mức 4–5) nhưng chưa có dữ liệu trực tiếp. Bộ 4 nhóm câu hỏi theo The Mom Test hỏi về lần onboarding gần nhất: các bước đã làm, thời gian, cách xử lý và bằng chứng. Câu hỏi tập trung vào hành vi đã xảy ra, không hỏi ý kiến.
+Tác động: Nhóm xác định được thứ tự ưu tiên. Giả định #1–2 dùng để kiểm giá trị. Giả định #4–6 (nguồn có owner, quyền truy cập, sự chấp thuận của tổ chức) trở thành điều kiện mở pilot ở mục 8. Bản đồ cũng cho thấy bằng chứng hiện chỉ đạt mức 1–2, nên nhóm không nâng điểm “Pain có bằng chứng” và ghi rõ phỏng vấn thật là việc phải làm tiếp.
+
+CP6 — Mức can thiệp AI
+
+Việc làm: Đối chiếu bốn phương án Phúc so sánh (No AI, Rule, Workflow, Agent) với các điểm duyệt trong quy trình 7 bước.
+Sản phẩm: Bảng đối chiếu từng bước (mục 4.4), xác định ba điểm người kiểm tra:
+Bước 4: HR/IT duyệt bằng Rule có sẵn, AI không tham gia.
+Bước 5: người mới tự kiểm nguồn trước khi làm theo.
+Bước 7: mentor xác nhận bắt đầu nhiệm vụ.
+Tác động: Nhóm chọn Agent nhưng có giới hạn. Agent chỉ hỗ trợ ghép thông tin khi người mới vướng mắc ở bước 2–6, không can thiệp bước 1, 4, 7. Agent chỉ soạn nháp, không tự gửi hay duyệt. Phần này trở thành Boundary và AI intervention point trong Problem Statement v1.
+
+CP6 — Quyết định triển khai
+
+Việc làm: Đối chiếu điều kiện mở pilot và ngưỡng dừng với bốn rủi ro Hoàng tổng hợp.
+Sản phẩm: Mỗi rủi ro mức cao đều có điều kiện mở pilot tương ứng:
+Value: phỏng vấn hai người mới và một mentor ngoài nhóm; Agent phải tốt hơn baseline và Workflow trên cùng 10 ca eval.
+Feasibility: HR/IT duyệt nguồn, quyền và công cụ.
+Viability: có owner vận hành và chi phí được duyệt.
+Ngưỡng dừng gắn với rủi ro: dừng ngay khi lộ dữ liệu, AI tự gửi/duyệt, hoặc người mới làm theo hướng dẫn sai mà không phát hiện. Không mở rộng nếu sau ba ca trung vị tra cứu vẫn trên 20 phút, mức giảm dưới 30% so với baseline, hoặc công sức hỗ trợ tăng.
+Tác động: Ba rủi ro Value, Feasibility, Viability đều ở mức cao và chưa có bằng chứng, nên nhóm chốt Not Yet. Mọi điều kiện mở pilot và ngưỡng dừng đều đo được.
+**Bằng chứng**
+
+Bảng 2.1(dòng 7, 8, 9) ở `group_report.md`
+
+
+**Điều mình học được từ phần nhóm**
+Học được quy trình onboard của một nhân viên và học được cách để so sánh giữa 4 mức can thiệp AI
+
