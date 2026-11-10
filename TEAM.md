@@ -46,3 +46,21 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - **Trạng thái:** Chưa phỏng vấn, chạy pilot/eval; snapshot là case mô phỏng, reflection là bản nháp cần Hoàng rà lại.
 - **Tiếp theo:** Phỏng vấn hai người mới và một mentor ngoài nhóm; đo baseline, so Agent với Workflow.
 - **Bằng chứng:** [Báo cáo cá nhân](report/individual/2A202603952_NguyenPhiHoang.md), [báo cáo nhóm](report/team/group_report.md).
+
+### PhamQuangDung-2A202603896
+
+**Phần việc phụ trách:**
+
+-
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+-
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+-
+
+**Điều mình học được từ phần nhóm:**
+
+-
