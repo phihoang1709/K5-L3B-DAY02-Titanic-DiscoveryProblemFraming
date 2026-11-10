@@ -169,16 +169,16 @@ Card #3 (card muốn pitch) được đưa cho AI đóng vai "PM hoài nghi" the
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Đưa 3 candidate vào bảng pitch nhóm: #4 (chấm bài, lỗi lặp lại qua các buổi), #5 (soạn bài bám tiến độ trên lớp), #6 (minh chứng tiến bộ cho phụ huynh). Ba candidate đều lấy từ 3 Problem Card CP2 của tôi. | #4 được chọn làm đại diện Cluster B (Theo dõi học tập) và vào shortlist với 27 điểm. Nhóm không chọn #4 vì cần chuyên môn Hoá và dữ liệu lỗi xuyên nhiều buổi. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: (1) cho #1 của Hoàng: "Có cần dùng agent thay vì chỉ cần dùng workflow?"; (2) cho #7 của Trung: "Trong 1–2 giờ làm standup, bước nào lâu nhất: tìm lại việc đã làm hay viết báo cáo?"; (3) cho #11 của Dũng: "Trong 12 phiếu mỗi tuần, bao nhiêu phiếu có thể dùng lại cho học sinh khác?" | Câu hỏi (1) thành phép so sánh Agent với Workflow trong mục 6.2, mục 8.2 và bộ điều kiện pilot của bài nhóm. Nhóm chọn Agent làm hướng thiết kế nhưng ghi rõ chưa chứng minh Agent tốt hơn Workflow. |
+| Nhận phản biện | Câu hỏi tôi nhận được: (1) #4, từ Hoàng: "Ghi lỗi sau mỗi buổi đã đủ chưa?"; (2) #5, từ Dũng: "Trong 15 phút tìm bài, phần lớn thời gian dành cho chọn dạng bài hay chọn mức khó?"; (3) #6, từ Trung: "Lần gần nhất hỏi về tiến bộ của con, phụ huynh muốn xem bằng chứng gì?" | Tôi sửa gì: các câu hỏi này cùng hướng với phản biện AI ở CP2. Tôi giữ "No AI / Rule" (phiếu 3 dòng, Google Sheet theo dõi lỗi) làm hướng đầu tiên và chuyển câu hỏi về nhu cầu thật của phụ huynh sang việc cần kiểm chứng ở CP4. |
+| Gom cluster / cây OST | Candidate #4 của tôi được đưa vào Cluster B — Theo dõi học tập (pattern: tìm lại lỗi qua các buổi để nhận ra chỗ hổng), cạnh Cluster A — Onboarding (#1) và Cluster C — Chọn lọc tài liệu (#12). | Nhóm chọn 3 candidate đại diện từ 12 candidate để so sánh, không gom hết. Cây OST rút gọn chỉ tập trung onboarding; B và C không nằm trong outcome này. |
+| Chọn candidate problem | #4 của tôi đạt 27/35, đứng sau #1 Onboarding (29) và trên #12 (26). Điểm mạnh của #4: actor rõ (5) và quy trình rõ (4). Điểm yếu: pain có bằng chứng 3, hiểu domain 3. | Nhóm chọn #1. Lý do: có bảy bước và bên bàn giao rõ, hợp hướng nhóm đã thống nhất. Tôi chấp nhận kết quả vì #4 cần chuẩn chất lượng riêng cho Hoá và dữ liệu lỗi xuyên nhiều buổi. |
+| Kiểm chứng / research | Bài nhóm dùng ba snapshot mô phỏng (dev mới, tester mới, mentor) theo Mom Test và 3 công cụ có sẵn (Confluence, Jira Service Management Approvals, Notion Enterprise Search). Số phỏng vấn thật: 0. | Kết luận của nhóm: tận dụng công cụ sẵn có cho dữ liệu và nghiệp vụ; phần Agent chỉ nằm ở chọn và phối hợp công cụ theo vướng mắc. Bước kiểm chứng tiếp theo: hỏi 2 người mới và 1 mentor ngoài nhóm. |
+| Quy trình nhóm | Bài nhóm có quy trình 7 bước HR → bắt đầu nhiệm vụ đầu tiên, tổng 35 + 30 + 45 + 60 + 40 = 210 phút ở 5 bước có phân bổ phút. Bottleneck là bước 5 (tìm tài liệu, 60 phút). | Quy trình tương lai vẫn giữ 7 bước. Agent chỉ hỗ trợ ở bước 2–6, tối đa 5 lần gọi công cụ mỗi lượt. Mục tiêu: bước 5 từ 60 xuống ≤20 phút, tổng 210 xuống ≤170 phút. |
+| Problem Statement | Bài nhóm có Problem Statement v0 rồi v1. v1 bổ sung chất lượng (đúng tài liệu, đúng bước tiếp theo), giới hạn Agent và 10 ca eval T01–T10. Tiêu chí E1–E5 là đúng nội dung, đúng ngữ cảnh, có nguồn, đúng quyền, điều chỉnh và dừng đúng. | Phản biện cho v0: nhanh nhưng sai nguồn thì không đạt; 60/210 phút là ước lượng, chưa phải baseline đo. |
+| Mức can thiệp AI | Mức chọn: **Agent hỗ trợ onboarding có giới hạn**. Phần xử lý vướng mắc có độ mơ hồ cao và độ phức tạp cao. Bước tiếp theo phụ thuộc kết quả từ nhiều nguồn. Câu hỏi "Agent hay Workflow?" của tôi được xử lý ở mục 6 của bài nhóm. | Bài nhóm ghi rõ chưa chứng minh Agent tốt hơn một Workflow được thiết kế đầy đủ. Đây là điểm cần kiểm trong pilot. |
+| Quyết định | **Not Yet**: chọn thiết kế Agent nhưng chưa triển khai. Cả bốn rủi ro Value, Usability, Feasibility, Viability đều ở mức trung bình đến cao. | Điều kiện mở pilot: phỏng vấn 2 người mới và 1 mentor, HR/IT duyệt nguồn, quyền, công cụ và owner, 10/10 ca eval đạt. Pilot: một dự án, ba người mới, tối đa bốn tuần. Ngưỡng dừng: lộ dữ liệu, tự gửi/duyệt, hoặc trung vị tra cứu >20 phút. |
 
 ---
 
@@ -186,12 +186,12 @@ Card #3 (card muốn pitch) được đưa cho AI đóng vai "PM hoài nghi" the
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Gợi ý thêm problem từ bối cảnh gia sư Hoá cấp 2 và hỗ trợ hoàn thiện 5 problem. | Gợi ý thêm các problem tôi chưa nghĩ tới (theo dõi số buổi học, giải bài ngoài giờ) và giúp viết lại Job Story rõ hơn. | Có ý quá rộng hoặc là giải pháp trá hình ("gia sư AI dạy Hoá 24/7"). Có ý thuộc kinh doanh ("tìm thêm học sinh mới"). | Bỏ hai ý này vì không gắn với quy trình dạy học đo được. Giữ các ý có thời gian và tần suất rõ. |
+| CP2 Problem Card | Đóng vai "PM hoài nghi" phản biện card #3 theo 6 câu hỏi trong worksheet. | Chỉ ra Impact dựa trên 1 ca mất học sinh. Bottleneck thật là bước ghi sau buổi học chưa tồn tại. Số liệu không tăng có thể phản tác dụng. | Gợi ý phiếu 3 dòng có thể đã đủ, tức là đang nhảy sang AI quá sớm. Điểm này tôi không đồng ý, vì card đã để No AI / Rule làm hướng đầu tiên. | Đồng ý 5/6 điểm và sửa Actor, Impact, Bottleneck. Metric "không mất học sinh" chỉ là kết quả theo dõi. Bỏ điểm 6 vì card đã đặt AI sau No AI / Rule. |
+| CP4 Research | Nhờ AI kiểm ba snapshot (dev mới, tester mới, mentor) theo The Mom Test và gợi ý câu hỏi phỏng vấn cho người mới và mentor. | Nhắc hỏi về hành vi lần onboarding gần nhất (đã làm gì, mất bao lâu, xử lý thế nào), không hỏi "có muốn công cụ không". Gợi ý tách thời gian chờ quyền khỏi thời gian tra cứu. | Viết snapshot có lời thoại như người thật, dễ bị đọc nhầm thành bằng chứng. Gợi ý công cụ nhưng không biết tổ chức đã cấu hình hay chưa. | Ghi rõ số phỏng vấn thật là 0, snapshot không tính là bằng chứng, điểm Pain giữ 2/5. Chỉ dùng nguồn sản phẩm chính thức và ghi ngày kiểm tra. |
+| CP5 Quy trình | Nhờ AI kiểm phép cộng thời gian và xác định bottleneck của quy trình 7 bước. | Chỉ ra bước 4 (chờ duyệt) và bước 7 (khoảng 3 ngày) không thể cộng chung với số phút làm chủ động. | Đề xuất gộp hoặc bỏ bớt bước thủ tục để rút ngắn, trái với boundary giữ phê duyệt HR/IT. | Giữ đủ 7 bước. Tổng 210 phút chỉ tính 5 bước có phân bổ phút. Chờ quyền đo riêng. Mục tiêu chỉ đặt ở bước 5. |
+| CP5–6 Problem Statement | Đưa Problem Statement v0 cho AI phản biện theo vai "PM hoài nghi". | Chỉ ra metric chỉ đo tốc độ: nhanh mà sai nguồn vẫn không đạt. Chỉ ra 60 phút là ước lượng, chưa phải baseline đo. | Gợi ý metric "mức hài lòng của người mới" chung chung, khó đo trong phạm vi lab. | v1 bổ sung tiêu chí đúng tài liệu và đúng bước tiếp theo, tính cả thời gian kiểm sửa/fallback, thêm tiêu chí E1–E5 và 10 ca eval. |
+| CP6 Mức can thiệp / quyết định | Nhờ AI bảo vệ phương án Workflow để kiểm câu hỏi tôi đã đặt cho Hoàng: "Có cần Agent thay vì Workflow?". | Chỉ ra nhiều ca eval (T01–T03, T06, T10) có thể xử lý bằng Workflow có nhánh rẽ. Ca thật sự cần chọn công cụ theo kết quả là T07–T08. | Có lúc kết luận "Agent tốt hơn vì linh hoạt" mà không có dữ liệu chứng minh. | Nhóm ghi rõ chưa chứng minh Agent tốt hơn Workflow. Điều kiện pilot: đo baseline checklist trước, nếu đã đạt ≤20 phút thì không thêm Agent; nếu chưa, so Agent với Workflow trên cùng 10 ca. Quyết định Not Yet. |
 
 ---
 
@@ -201,20 +201,32 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Điều tôi nhận ra đầu tiên là problem của Dũng (#10, #11) gần như trùng pattern với tôi dù khác môn và khác cấp học: cả hai đều phải lật vở để tìm lại buổi trước dừng ở đâu, em sai gì. Pain tôi tưởng là riêng của mình hoá ra có nguyên nhân chung: thông tin sau mỗi buổi học không được ghi lại. Khi nghe card onboarding của Hoàng, tôi thấy một problem có nhiều bên bàn giao (HR, IT, mentor) và các bước rõ ràng thì dễ so sánh 4 mức can thiệp hơn hẳn một problem chỉ có một người làm như của tôi.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Có. Ngay từ lúc pitch, card onboarding đã nghiêng về hướng Agent trước khi chứng minh được checklist hay Workflow là chưa đủ. Tôi đặt câu hỏi "Có cần dùng Agent thay vì chỉ cần Workflow?". Nhóm xử lý bằng cách so sánh đủ 4 mức ở mục 6.2, lấy No AI (checklist, owner rõ) làm baseline và đặt điều kiện: nếu checklist/Rule đã đạt ≤20 phút và đúng tài liệu thì không cần Agent. Nhóm vẫn chọn Agent làm hướng thiết kế, nhưng ghi rõ đây là giả thuyết cần kiểm trong pilot.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Có. Ở card #3 (phụ huynh muốn thấy con tiến bộ), ban đầu tôi cho rằng bottleneck là bước gom bằng chứng, mất khoảng 10 phút mỗi lần trả lời. Sau khi bị phản biện, tôi nhận ra nguyên nhân gốc là một bước không hề có trong quy trình: sau mỗi buổi học tôi không ghi lại gì cả. Tôi đã sửa dòng Bottleneck và đưa phiếu ghi 3 dòng sau mỗi buổi lên làm hướng đầu tiên. Ở cấp nhóm, tôi cũng chấp nhận việc #4 của mình (27 điểm) không được chọn, vì muốn làm tốt problem đó cần chuẩn chất lượng riêng cho môn Hoá.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Bất ngờ lớn nhất là nhóm có 0 phỏng vấn thật, toàn bộ phần kiểm chứng dựa trên 3 snapshot mô phỏng. Dù vậy, các snapshot vẫn cho ra tín hiệu phản bác mà tôi không ngờ: tester đã tìm đúng trang nhưng vẫn bị chặn vì chưa được cấp quyền, nên trả lời nhanh hơn không giải quyết được thời gian chờ. Có trường hợp checklist đã đủ dùng. Điều đó làm lý do cần Agent yếu đi so với lúc pitch.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Khó nhất là viết Success Metric khi baseline 60/210 phút chỉ là ước lượng. Đặt mục tiêu "≤20 phút" thì dễ, nhưng phải thêm điều kiện đúng tài liệu, đúng bước tiếp theo và tính cả thời gian kiểm sửa thì metric mới không khuyến khích làm nhanh mà sai. Khó thứ hai là viết sao cho không ngầm chứa giải pháp: bản v0 vẫn có lúc dùng từ gắn với Agent trước khi so sánh các mức.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Tôi sẽ đề nghị nhóm phỏng vấn ít nhất 1–2 người thật trước khi chấm điểm shortlist, vì #1 được chọn dù Pain có bằng chứng chỉ 2/5. Tôi cũng sẽ phản biện mạnh hơn ở bước chọn mức can thiệp: yêu cầu đo baseline checklist trước rồi mới bàn tới Agent, thay vì chọn Agent rồi mới đặt điều kiện kiểm lại. Với card của riêng mình, tôi sẽ hỏi trực tiếp phụ huynh muốn nhận thông tin gì ngay từ CP2, thay vì để tới CP4.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Problem của nhóm là nhân viên mới dev/tester/ITBA khó tìm đúng tài liệu theo vai trò, phiên bản và đầu mối hỗ trợ khi được bàn giao giữa HR, IT và mentor. Quy trình hiện tại có 7 bước từ hướng dẫn HR đến bắt đầu nhiệm vụ đầu tiên, bottleneck là bước 5 tìm tài liệu, ước tính 60 phút trong tổng 210 phút làm chủ động. Metric là giảm thời gian tra cứu xuống ≤20 phút nhưng vẫn phải đúng, đủ tài liệu và đúng bước tiếp theo, tính cả thời gian kiểm sửa. Boundary là Agent chỉ đọc nguồn trong quyền, chỉ soạn nháp, không tự gửi hay duyệt, tối đa 5 lần gọi công cụ mỗi lượt rồi chuyển người phụ trách. Nhóm chọn mức Agent có giới hạn vì phần xử lý vướng mắc vừa mơ hồ vừa phức tạp, bước tiếp theo phụ thuộc kết quả từ nhiều nguồn. Tuy nhiên quyết định là Not Yet, vì chưa có phỏng vấn thật, chưa kiểm dữ liệu và quyền, và chưa chứng minh Agent tốt hơn Workflow. Chỉ mở
 
 ---
 
 ## 7. Tài liệu tham khảo
-
--
