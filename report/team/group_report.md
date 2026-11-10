@@ -19,8 +19,6 @@
 
 ### 2.1. Pitch
 
-*Phúc đã hỏi câu #1 tại buổi pitch. Hoàng bổ sung câu #4 sau buổi pitch. Các tên còn lại là người hỏi đề xuất để nhóm thảo luận.*
-
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
 | 1 | Nguyễn Phi Hoàng | Khi mới vào công ty, tôi muốn tìm đúng tài liệu và người hỗ trợ để bắt đầu nhiệm vụ đầu tiên. | Nhân viên mới | Tìm tài liệu đúng vai trò và phiên bản (ước tính 60 phút). | Có cần dùng agent thay vì chỉ cần dùng workflow ? (Nguyễn Minh Phúc)|
@@ -70,7 +68,7 @@ OUTCOME: Tìm và xác nhận đủ tài liệu onboarding đúng vai trò/phiê
 
 **Chưa chọn #4:** Cần chuyên môn Hóa và dữ liệu lỗi xuyên nhiều buổi. **Chưa chọn #12:** Chưa có tập bài tham chiếu để biết tăng tốc có làm bỏ sót tài liệu quan trọng không.
 
-**Phản biện:** Không có biên bản bất đồng về candidate. Câu hỏi của Phúc “Agent hay Workflow?” được xử lý ở mục 6; không bổ sung phát ngôn vào bảng pitch.
+**Phản biện:** Không có biên bản bất đồng về candidate. Câu hỏi của Phúc “Agent hay Workflow?” được xử lý ở mục 6. Câu hỏi phản biện của từng thành viên cho từng card được ghi ở cột cuối bảng 2.1.
 
 ## 3. Kiểm chứng + research (CP4)
 
@@ -186,6 +184,28 @@ flowchart TD
 | Chờ quyền / toàn trình | Chưa đo / khoảng một tuần | Theo dõi riêng | Không suy ra giảm một ngày từ tiết kiệm 40 phút. |
 | Bottleneck | Tìm đúng nguồn | Kiểm đề xuất và xử lý ngoại lệ | Giữ HITL. |
 | Rủi ro mới | Tra sai, hỏi sai người | Agent chọn sai bước/công cụ hoặc lộ dữ liệu | Giới hạn quyền, số lượt gọi và fallback. |
+
+### 4.4. Đối chiếu từng bước: thời gian và người duyệt
+
+Đối chiếu quy trình hiện tại (4.1) với quy trình tương lai (4.2), để quy trình tương lai cũng có thời gian từng bước và rõ ai kiểm tra ở đâu. Mục tiêu chỉ đặt cho bước 5; các bước khác giữ nguyên thời gian vì chưa có căn cứ để đặt mục tiêu giảm.
+
+| Bước | Hiện tại | Tương lai (mục tiêu) | Ai làm / hỗ trợ | Người duyệt / xác nhận |
+|---:|---|---|---|---|
+| 1. HR hướng dẫn | 35 phút | 35 phút | HR | — |
+| 2. Xác định nhu cầu | 30 phút | 30 phút | Người mới; Rule tạo checklist theo vai trò | HR/mentor xác nhận danh sách |
+| 3. Gửi yêu cầu | 45 phút | 45 phút | Người mới gửi; Agent chỉ soạn nháp khi thiếu thông tin | — |
+| 4. Chờ duyệt | Đo riêng | Đo riêng | HR/IT xử lý | **HR/IT duyệt** (Rule duyệt có sẵn, AI không tham gia) |
+| 5. Tìm tài liệu | 60 phút | **≤ 20 phút** | Người mới; công cụ tìm kiếm có sẵn; Agent khi vướng mắc | **Người mới kiểm nguồn** trước khi làm theo; owner xử lý nguồn xung đột |
+| 6. Đọc, hỏi lại | 40 phút | 40 phút | Người mới, mentor | — |
+| 7. Học dự án, bắt đầu nhiệm vụ | Khoảng 3 ngày | Khoảng 3 ngày | Người mới, mentor | **Mentor xác nhận** bắt đầu nhiệm vụ |
+| **Tổng (bước có phân bổ phút)** | **210 phút** | **≤ 170 phút** | | |
+
+**Kết quả đối chiếu:**
+
+- Tổng 210 → ≤ 170 phút khớp với mục 4.3, Problem Statement v0 (mục 5) và v1 (mục 7).
+- Bước nghẽn (bước 5) thống nhất ở mục 4.1, 5 và 7.
+- Ba điểm người kiểm tra (bước 4, 5, 7) khớp với Boundary ở mục 4.2 và mục 7; phương án quay về là checklist gốc và người phụ trách.
+- Bảng chấm điểm shortlist ở mục 2.4 đã được rà lại: tổng 29, 27, 26 khớp với điểm từng tiêu chí.
 
 ## 5. Problem Statement v0 (CP5)
 
