@@ -7,7 +7,7 @@
 
 - Họ tên: Nguyễn Văn Anh Trung
 - MSSV: 2A202603903
-- Email trường (không bắt buộc, repo có thể để public): 26ai.trungnva@vinuni.edu.vn
+- Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: Titanic
 - Link repository:[K5-L3B-DAY02-Titanic-DiscoveryProblemFraming](https://github.com/phihoang1709/K5-L3B-DAY02-Titanic-DiscoveryProblemFraming)
 
