@@ -26,13 +26,14 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP3 — Hội tụ nhóm | Hoàng điều phối phần pitch và gom nhóm các đề xuất | Dũng lập cây OST và tổng hợp điểm của nhóm | Bảng pitch, cluster, cây OST, bảng điểm và lý do chọn bài toán onboarding |
+| CP4 — Kiểm chứng | Trung lập bản đồ giả định và soạn câu hỏi phỏng vấn | Hoàng rà các giả định về bàn giao giữa HR, IT và mentor | Bản đồ giả định, snapshot mô phỏng và các câu hỏi cần kiểm chứng với người dùng thật |
+| CP4 — Research | Dũng đối chiếu các giải pháp onboarding hiện có | Phúc kiểm tra nguồn và xác định bước mỗi giải pháp hỗ trợ | Bảng so sánh có liên kết nguồn, ghi rõ bước còn bỏ ngỏ |
+| CP5 — Quy trình trước/sau | Trung vẽ quy trình hiện tại và quy trình đề xuất | Dũng đối chiếu số bước, thời gian ước tính và việc cần người duyệt | Hai sơ đồ và bảng before/after, đánh dấu bước nghẽn khi tìm tài liệu |
+| CP5 — Problem Statement v0 | Phúc viết v0 dựa trên quy trình và bước nghẽn | Hoàng rà mốc thời gian trong Problem Card và cách đo | Problem Statement v0 đủ sáu trường, ghi rõ baseline ước tính và mục tiêu tra cứu |
+| CP6 — Mức can thiệp AI | Phúc so sánh No AI, Rule, Workflow và Agent | Trung đối chiếu từng phương án với các bước HR, IT và mentor phải duyệt | Ma trận, AI Canvas và lý do chọn Agent hỗ trợ onboarding |
+| CP6 — Problem Statement v1 và eval | Dũng viết v1 và xây dựng các ca đánh giá | Phúc đối chiếu v1 với v0, rà tiêu chí đạt cho từng ca | Bảng thay đổi từ v0 sang v1, tiêu chí và bộ ca eval mẫu |
+| CP6 — Quyết định triển khai | Hoàng tổng hợp bốn rủi ro và điều phối thảo luận | Trung đối chiếu điều kiện mở pilot và ngưỡng dừng với rủi ro | Quyết định **Not Yet** của nhóm, điều kiện mở pilot và ngưỡng dừng |
 
 ## Cá nhân
 
