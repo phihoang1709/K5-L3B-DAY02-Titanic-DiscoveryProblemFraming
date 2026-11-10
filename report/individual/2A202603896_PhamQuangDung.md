@@ -198,17 +198,24 @@ LỌC BÀI (bước 1–4): 60 + 30 + 180 + 15 = 285 phút ≈ 5 giờ/tuần, 2
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Qua phần top 3, mình nhận ra dù cùng bối cảnh dạy thêm nhưng mỗi người lại nhìn ra pain khác nhau. Phúc nhìn từ phía phụ huynh và chấm bài, còn mình nhìn từ đầu buổi học và soạn phiếu. Card của Hoàng thắng không hẳn vì pain đau nhất mà vì actor, số bước và các bên bàn giao được thể hiện rõ ràng. Qua đó mình thấy pain cá nhân thì dễ viết nhưng khó chứng minh nhiều người cũng gặp phải.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Ban đầu nhom đã chọn Agent khá sớm khi chưa research và kiểm chứng đầy đủ. Đến mục 3.3 mới nhận ra Rovo, Backstage và Jira Service Management đã giải quyết được nhiều phần của vấn đề. Vì vậy mình chuyển Agent thành một hướng để thử nghiệm, bổ sung phương án đối chứng và đặt điều kiện Agent phải chứng minh tốt hơn Workflow ở các ca T04, T07, T08.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Với card #3, ban đầu mình nghĩ bottleneck nằm ở bước đọc toàn bài, nhưng sau câu hỏi của Trung thì nhận ra có thể vấn đề nằm ở bước đọc abstract chưa kỹ. Với card #1 cũng vậy, khi tách thời gian từng bước thì bottleneck chuyển từ lật vở sang dò chỗ vướng. Mình nhận ra nếu chưa có số phút cụ thể thì việc xác định bottleneck vẫn chỉ là cảm giác.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Mình khá bất ngờ khi các công cụ có sẵn đã giải quyết được phần lớn vấn đề, nên chưa chắc cần tự xây dựng thêm. Ngoài ra, các sản phẩm cũng có nhiều điều kiện ẩn như gói trả phí, yêu cầu admin cài connector hay vấn đề quyền truy cập của Notion. Nhóm cũng chưa phỏng vấn được người dùng thật nên các con số vẫn chủ yếu là ước lượng, khiến kết luận chưa thực sự chắc chắn.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Khó nhất với mình là viết Success Metric khi baseline vẫn chỉ là ước lượng. Ngoài ra phải phân biệt được nhanh hơn và đúng hơn, vì tìm nhanh nhưng sai nguồn thì vẫn không đạt yêu cầu. Phần Boundary cũng khó vì cần liệt kê cụ thể những việc AI không được làm, thay vì chỉ viết những giới hạn chung chung.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu được làm lại, mình nghĩ nhóm nên pitch và phản biện trực tiếp trước rồi mới chia việc, không nên để một người soạn gần như toàn bộ. Đồng thời cần phỏng vấn người dùng thật trước khi viết Problem Statement. Nhóm cũng nên đặt câu hỏi về công cụ có sẵn và lý do phải dùng Agent thay vì Workflow ngay từ CP3.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Qua bài này mình hiểu rõ hơn cách liên kết 6 mắt xích. Problem là người mới khó tìm đúng tài liệu theo vai trò và phiên bản. Bottleneck nằm ở bước 5/7, mất khoảng 60 phút. Metric là giảm xuống không quá 20 phút, đạt 10/10 ca eval và không có lỗi quyền. Boundary là AI không được cấp quyền, gửi hay duyệt yêu cầu, hoặc xác nhận hoàn tất. Agent mới chỉ là hướng thử nghiệm vì công cụ hiện có đã hỗ trợ phần tra cứu. Cuối cùng, nhóm chọn Not Yet vì còn thiếu người dùng thật, dữ liệu và quyền truy cập để kiểm chứng, đồng thời đã xác định ngưỡng dừng.
 
 ---
