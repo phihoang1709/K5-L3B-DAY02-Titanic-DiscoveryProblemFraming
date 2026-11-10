@@ -47,3 +47,12 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - **Trạng thái:** Chưa phỏng vấn, chạy pilot/eval; snapshot là case mô phỏng, reflection là bản nháp cần Hoàng rà lại.
 - **Tiếp theo:** Phỏng vấn hai người mới và một mentor ngoài nhóm; đo baseline, so Agent với Workflow.
 - **Bằng chứng:** [Báo cáo cá nhân](report/individual/2A202603952_NguyenPhiHoang.md), [báo cáo nhóm](report/team/group_report.md).
+
+### Nguyễn Minh Phúc — 2A202603894
+
+- **Vai trò:** Thành viên; phụ trách Problem Statement v0 và so sánh mức can thiệp AI.
+- **Đóng góp:** Viết Problem Statement v0 từ quy trình và bước nghẽn tìm tài liệu; so sánh No AI, Rule, Workflow và Agent, lập AI Canvas và lý do chọn Agent hỗ trợ onboarding. Hỗ trợ kiểm tra nguồn ở bảng research, và đối chiếu v1 với v0 cùng tiêu chí đạt của từng ca eval.
+- **Kết luận:** Agent hỗ trợ onboarding phù hợp nhất vì cần tự chọn công cụ/bước tiếp theo theo vai trò, phiên bản và đầu mối; HR, IT và mentor vẫn duyệt các bước nhạy cảm. Not Yet cho triển khai.
+- **Trạng thái:** Chưa phỏng vấn người dùng thật, chưa chạy pilot/eval; baseline trong v0 là ước tính, chưa đo thực tế.
+- **Tiếp theo:** Cùng nhóm phỏng vấn người mới và mentor để kiểm chứng baseline; so Agent với Workflow trên bộ ca eval mẫu.
+- **Bằng chứng:** [Báo cáo cá nhân](report/individual/2A202603894_NguyenMinhPhuc.md), [báo cáo nhóm](report/team/group_report.md).
